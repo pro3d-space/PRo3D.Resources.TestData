@@ -1,0 +1,55 @@
+{
+    "processing_history": [
+        {
+            "process_description": "",
+            "software_name": "Fits2Mbi",
+            "software_description": "Import flexible image transport system (fits) data into multiband image (mbi) format..",
+            "software_version": "2024.7.7RC (Rev. 8864)\nBuilt: Apr 28 2026, Configured: 28.04.2026\nBased on: Dibgen: 1.0.0 (Rev. 2791),\n\tDibGeometry: 0.5.0 (Rev. 1170),\n\tDibgiom: 1.0.0 (Rev. 4618),\n\tDibmatch: 0.3.0 (Rev. 1627),\n\tDibQtGui: 0.1.0 (Rev. 2116),\n\tImproPP: 24.7.7 (Rev. 3441)",
+            "user": "baa",
+            "hostname": "DIGW351",
+            "python_executable": "D:\\Build\\ImproApplications\\Applications\\Release\\venv\\jr-sri\\Scripts\\python.exe",
+            "program_path": "D:\\Source\\ImproApplications\\Applications\\HERA\\Fits2Mbi.py",
+            "args": [
+                "--log=(type=file,level=debug,name=Fits2Mbi.log)",
+                "--input-mode",
+                "file",
+                "--input-file",
+                "FITS\\ASP_000000_270323T060000_2B.fits",
+                "--output-dir",
+                "MBI"
+            ],
+            "cwd": "E:\\Projects\\HERA\\20260526_FITS_3C",
+            "process_start_datetime": "2026-06-02T12:08:19.508001",
+            "process_stop_datetime": "2026-06-02T12:08:21.883170",
+            "parameter_pool": {
+                "Common": {
+                    "Band Representation": "mem",
+                    "Confirm Log Gui": "automatic",
+                    "Dest Type": "same",
+                    "Force Output NoData Value": "false",
+                    "Log": "(type=file,level=debug,name=Fits2Mbi.log)",
+                    "Num Bins Hint": "-1",
+                    "Output NoData Value": "0",
+                    "Output Parameter": "",
+                    "Overview Method": "nearest",
+                    "Overview Min Size": "2048",
+                    "Overview Start Decimation": "4",
+                    "Parameter Gui": "automatic",
+                    "Store Environment": "false",
+                    "Suppress Histogram": "false",
+                    "Suppress Statistics": "false",
+                    "Threads": "0",
+                    "Tile Cache Size": "4Gi",
+                    "Version": "false"
+                },
+                "Fits2Mbi": {
+                    "Input Directory": "",
+                    "Input File": "FITS\\ASP_000000_270323T060000_2B.fits",
+                    "Input Mode": "file",
+                    "Output Directory": "MBI",
+                    "Process Description": ""
+                }
+            }
+        }
+    ]
+}
