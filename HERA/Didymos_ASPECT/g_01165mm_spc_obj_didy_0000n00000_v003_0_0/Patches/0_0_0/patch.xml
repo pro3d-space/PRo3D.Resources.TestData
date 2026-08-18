@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark>
+  <Patch>
+    <TagList/>
+    <PatchColRowOffset>0, 0</PatchColRowOffset>
+    <QuadVertexSortOrder>RowMajor</QuadVertexSortOrder>
+    <GeometryType>QuadList</GeometryType>
+    <VertexArrangement>RasterPixelArea</VertexArrangement>
+    <Local2Global>[[1.000000000, 0.000000000, 0.000000000, -9.408278892], [0.000000000, 1.000000000, 0.000000000, 39.314894303], [0.000000000, 0.000000000, 1.000000000, -22.582452268], [0.000000000, 0.000000000, 0.000000000, 1.000000000]]</Local2Global>
+    <LocalBoundingBox>[[-382.891731108, -400.004892303, -317.777533731], [440.308269685, 401.225088166, 289.052419089]]</LocalBoundingBox>
+    <GlobalBoundingBox>[[-392.300010000, -360.689998000, -340.359986000], [430.899990793, 440.539982469, 266.469966820]]</GlobalBoundingBox>
+    <Positions>Cartesian_Local.aara</Positions>
+    <Attributes>
+					</Attributes>
+    <Coordinates>
+      <DiffuseColor1Coordinates>Checkerboard_Coordinates.aara</DiffuseColor1Coordinates>
+    </Coordinates>
+    <Textures>
+      <DiffuseColor1Texture>Checkerboard\0_0_0.tif</DiffuseColor1Texture>
+      <DiffuseColor1Weights>Checkerboard_Weights.aara</DiffuseColor1Weights>
+    </Textures>
+  </Patch>
+</Aardvark>

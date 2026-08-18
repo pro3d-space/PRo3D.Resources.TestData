@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark>
+  <ImagePyramid>
+    <TagList/>
+    <AvgPixelSizes>[1.000000000, 1.000000000]</AvgPixelSizes>
+    <RootTile>1_0_0</RootTile>
+    <SubTileMap>
+      <item>
+        <key>1_0_0</key>
+        <val>
+          <nw>0_0_0</nw>
+        </val>
+      </item>
+    </SubTileMap>
+  </ImagePyramid>
+</Aardvark>

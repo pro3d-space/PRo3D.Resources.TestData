@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark>
+  <PatchHierarchy>
+    <TagList/>
+    <AvgGeometrySizes>[1.000000000, 1.000000000]</AvgGeometrySizes>
+    <RootPatch>1_0_0</RootPatch>
+    <SubPatchMap>
+      <item>
+        <key>1_0_0</key>
+        <val>
+          <nw>0_0_0</nw>
+        </val>
+      </item>
+    </SubPatchMap>
+  </PatchHierarchy>
+</Aardvark>

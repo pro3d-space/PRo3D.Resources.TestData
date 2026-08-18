@@ -1,0 +1,28 @@
+{
+    "product_information": {
+        "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+        "schema_version": 7262,
+        "product_type": "opc",
+        "product_state": "initial",
+        "creator_id": "ExportGpc",
+        "creation_datetime": "2026-06-09T11:13:49.816564+0000"
+    },
+    "input_products": [
+        {
+            "metadata_file": "F:\\HERA\\HERA_VISION_PHASE_2B_3\\workflows-MS2\\full\\4_ModifyGpc\\Didymos_ASPECT\\g_01165mm_spc_obj_didy_0000n00000_v003.gpc.json"
+        }
+    ],
+    "DemModel": {
+        "ModelType": "DemSphere",
+        "Center": [
+            -15.617376375113,
+            34.911567168183,
+            -18.420419154558
+        ],
+        "Axis": [
+            0.005260174731145001,
+            -0.99998545393356,
+            -0.0011926789590915
+        ]
+    }
+}
