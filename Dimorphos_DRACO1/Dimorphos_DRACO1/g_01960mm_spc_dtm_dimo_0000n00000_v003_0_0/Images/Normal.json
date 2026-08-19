@@ -1,0 +1,71 @@
+{
+    "product_information": {
+        "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+        "schema_version": 7262,
+        "product_type": "image",
+        "product_state": "imported",
+        "creator_id": "ModifyGpc",
+        "creation_datetime": "2025-10-23T13:44:01.449660+0000",
+        "description": "GPC attribute layer"
+    },
+    "schema_id": "https://www.joanneum.at/jim/camera_image.schema.json",
+    "schema_version": 8198,
+    "product_type": "image",
+    "image_width": 2163,
+    "image_height": 1081,
+    "channels": 3,
+    "data_type": "float",
+    "file_md5": "6004a2559c3121ff0d1c5a4fd2d55f83",
+    "image_file_format": "tif",
+    "compression_type": "none",
+    "map_transformation": [
+        0.0,
+        0.18501128843456588,
+        0.0,
+        6.9061843532836065e-06,
+        0.0,
+        0.18501128843456588
+    ],
+    "is_map_raster": true,
+    "no_data_value": -99999.0,
+    "image_statistics": [
+        {
+            "minimum": -0.9992351531982422,
+            "maximum": 0.9996212124824524,
+            "mean": -0.00051045276936183,
+            "median": -0.00038064869509812915,
+            "standard_deviation": 0.38963097133878893,
+            "variance": 0.15181229382640815
+        },
+        {
+            "minimum": -0.9980932474136353,
+            "maximum": 0.9996891617774963,
+            "mean": 0.002620909781736788,
+            "median": 0.004411745247720145,
+            "standard_deviation": 0.3894133858677268,
+            "variance": 0.15164278509296708
+        },
+        {
+            "minimum": -0.9999253749847412,
+            "maximum": 0.9999748468399048,
+            "mean": -0.00018448353302959574,
+            "median": -0.027595519692527215,
+            "standard_deviation": 0.831823127644426,
+            "variance": 0.6919297156841551
+        }
+    ],
+    "pixel_value_scaling": [
+        {
+            "scaling_factor": 1.9988563656806946,
+            "value_offset": -0.9992351531982422
+        },
+        {
+            "scaling_factor": 1.9977824091911316,
+            "value_offset": -0.9980932474136353
+        },
+        {
+            "scaling_factor": 1.999900221824646,
+            "value_offset": -0.9999253749847412
+        }
+    ]
+}

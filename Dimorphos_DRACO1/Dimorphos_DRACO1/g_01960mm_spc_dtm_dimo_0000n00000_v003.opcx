@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark version="4">
+  <SurfaceAttributes version="0" num="0">
+    <AttributeLayers num="1" count="8">
+      <AttributeLayer version="0" num="2">
+        <Type>Texture</Type>
+        <Label>LonLatRad</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="3">
+        <Type>Texture</Type>
+        <Label>Normal</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="4">
+        <Type>Texture</Type>
+        <Label>Gravity</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="5">
+        <Type>Texture</Type>
+        <Label>Magnitude</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="6">
+        <Type>Texture</Type>
+        <Label>Potential</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="7">
+        <Type>Texture</Type>
+        <Label>Elevation</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="8">
+        <Type>Texture</Type>
+        <Label>Slope</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="9">
+        <Type>Texture</Type>
+        <Label>DRACO</Label>
+      </AttributeLayer>
+    </AttributeLayers>
+  </SurfaceAttributes>
+</Aardvark>
