@@ -1,0 +1,32 @@
+# SBMT Structure File
+# type,ellipse
+# ------------------------------------------------------------------------------
+# File consists of a list of structures on each line.
+#
+# Each line is defined by 18 columns with the following:
+# <id> <name> <centerXYZ[3]> <centerLLR[3]> <coloringValue[4]> <diameter> <flattening> <regularAngle> <colorRGB> <gravityAngle> <label>*
+#
+#               id: Id of the structure
+#             name: Name of the structure
+#     centerXYZ[3]: 3 columns that define the structure center in 3D space
+#     centerLLR[3]: 3 columns that define the structure center in lat,lon,radius
+# coloringValue[4]: 4 columns that define the ellipse “standard” colorings. The
+#                   colorings are: slope (degrees), elevation (meters), acceleration (m/s^2), potential (J/kg)
+#         diameter: Diameter of major axis of ellipse
+#       flattening: Flattening factor of ellipse. Range: [0.0, 1.0]
+#     regularAngle: Angle between the major axis and the line of longitude
+#                   as projected onto the surface
+#         colorRGB: 1 column (of RGB values [0, 255] separated by commas with no
+#                   spaces). This column appears as a single textual column.
+#     gravityAngle: Angle between the major axis of the ellipse and the gravity
+#                   acceleration vector... (Description continues in user manual)
+#            label: Label of the structure
+#
+#
+# Please note the following:
+# - Each line is composed of columns separated by a tab character.
+# - Blank lines or lines that start with '#' are ignored.
+# - Angle units: degrees
+# - Length units: kilometers
+
+6	default	-0.08715170780120021	-0.01848512937421025	0.012282174821710505	7.849417840738893	191.9751280385547	0.08993315294705358	31.92602454655487	117.08145605741223	3.955302236136049E-5	-0.0012338412925601006	0.009219108555192354	0.6550142316138788	122.84787414072383	255,0,255	NA	""
