@@ -8,10 +8,15 @@ Binary test fixtures for the PRo3D test suite, kept out of the main
 | Path | Description |
 |---|---|
 | `1087_004779_MSLMST_0011/` | Part of Stimson_1087 dataset - the whole dataset can be downloaded here : http://download.vrvis.at/acquisition/32987e2792e0/PRo3D/Stimson_1087.zip |
+| `HERA/Dimorphos_opc/Dimorphos/` | Dimorphos OPC (1.1 GB; DRACO_1/DRACO_2 texture layers, outward-wound) — the shape model for image-projection tests |
+| `HERA/Dimorphos_opc/AFC_2027-03-21/` | simulated HERA/AFC-1 frames of that OPC with `.mbi.json` sidecars describing the exact render camera, plus a scene template; used by PRo3D's `tests-ui` (`PRO3D_TEST_DATA`) — see its README |
 
 ## How PRo3D consumes this
 
-Mounted as a git submodule at `src/Tests/data/opc`:
+The Playwright tests in PRo3D's `tests-ui/` read this checkout from the `PRO3D_TEST_DATA`
+environment variable.
+
+The Expecto suite also mounts it as a git submodule at `src/Tests/data/opc`:
 
 ```
 git submodule update --init --recursive

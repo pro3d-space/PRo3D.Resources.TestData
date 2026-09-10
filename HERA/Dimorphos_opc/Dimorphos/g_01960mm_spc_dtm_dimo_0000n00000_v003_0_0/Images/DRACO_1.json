@@ -1,0 +1,41 @@
+{
+    "product_information": {
+        "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+        "schema_version": 7262,
+        "product_type": "image",
+        "product_state": "imported",
+        "creator_id": "ModifyGpc",
+        "creation_datetime": "2026-09-09T08:10:24.674428+0000",
+        "description": "GPC attribute layer"
+    },
+    "schema_id": "https://www.joanneum.at/jim/camera_image.schema.json",
+    "schema_version": 8749,
+    "product_type": "image",
+    "image_width": 2163,
+    "image_height": 1081,
+    "channels": 1,
+    "data_type": "uint8",
+    "file_md5": "5fe4c0cba35d7bd24ae26909c2904536",
+    "image_file_format": "tif",
+    "compression_type": "lzw",
+    "map_transformation": [
+        0.0,
+        0.18501128843456588,
+        0.0,
+        6.9061843532836065e-06,
+        0.0,
+        0.18501128843456588
+    ],
+    "is_map_raster": true,
+    "no_data_value": 0,
+    "image_statistics": [
+        {
+            "minimum": 1,
+            "maximum": 255,
+            "mean": 128.4278449885396,
+            "median": 133.52610179279208,
+            "standard_deviation": 62.56768644812001,
+            "variance": 3914.71538747026
+        }
+    ]
+}
