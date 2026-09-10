@@ -1,0 +1,27 @@
+{
+  "product_information": {
+    "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+    "schema_version": 7262,
+    "product_type": "simulated image",
+    "product_state": "generated",
+    "creator_id": "pro3d-tool simulate-image",
+    "creation_datetime": "2026-09-10T14:42:18.2676761Z"
+  },
+  "image_width": 1020,
+  "image_height": 1020,
+  "channels": 1,
+  "data_type": "float",
+  "file_md5": "",
+  "image_statistics": [
+    {
+      "minimum": 0,
+      "maximum": 1,
+      "mean": 0.011872206014286764,
+      "median": 0.011872206014286764,
+      "standard_deviation": 0,
+      "variance": 0
+    }
+  ],
+  "mission_name": "HERA",
+  "camera_system": "AFC1"
+}

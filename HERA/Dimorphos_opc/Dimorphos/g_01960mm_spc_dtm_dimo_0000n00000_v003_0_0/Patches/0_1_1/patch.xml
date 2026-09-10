@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark>
+  <Patch>
+    <TagList/>
+    <PatchColRowOffset>0, 0</PatchColRowOffset>
+    <QuadVertexSortOrder>RowMajor</QuadVertexSortOrder>
+    <GeometryType>QuadList</GeometryType>
+    <VertexArrangement>RasterPixelArea</VertexArrangement>
+    <Local2Global>[[1.000000000, 0.000000000, 0.000000000, -0.017638418], [0.000000000, 1.000000000, 0.000000000, 0.032681849], [0.000000000, 0.000000000, 1.000000000, 0.222972246], [0.000000000, 0.000000000, 0.000000000, 1.000000000]]</Local2Global>
+    <LocalBoundingBox>[[-8.850320604, -1.589086201, -57.012542101], [9.461436483, 9.408279035, -55.961142870]]</LocalBoundingBox>
+    <GlobalBoundingBox>[[-8.867959023, -1.556404352, -56.789569855], [9.443798065, 9.440960884, -55.738170624]]</GlobalBoundingBox>
+    <Positions>XYZ_Local.aara</Positions>
+    <Attributes>
+      <LonLatRad>LonLatRad.aara</LonLatRad>
+      <Normal>Normal.aara</Normal>
+      <Gravity>Gravity.aara</Gravity>
+      <Magnitude>Magnitude.aara</Magnitude>
+      <Potential>Potential.aara</Potential>
+      <Elevation>Elevation.aara</Elevation>
+      <Slope>Slope.aara</Slope>
+      <DRACO_1>DRACO_1.aara</DRACO_1>
+      <DRACO_2>DRACO_2.aara</DRACO_2>
+    </Attributes>
+    <Coordinates>
+      <DiffuseColor1Coordinates>DRACO_1_Coordinates.aara</DiffuseColor1Coordinates>
+      <DiffuseColor2Coordinates>DRACO_1_Coordinates.aara</DiffuseColor2Coordinates>
+      <DiffuseColor3Coordinates>DRACO_1_Coordinates.aara</DiffuseColor3Coordinates>
+      <DiffuseColor4Coordinates>DRACO_1_Coordinates.aara</DiffuseColor4Coordinates>
+      <DiffuseColor5Coordinates>DRACO_1_Coordinates.aara</DiffuseColor5Coordinates>
+      <DiffuseColor6Coordinates>DRACO_1_Coordinates.aara</DiffuseColor6Coordinates>
+      <DiffuseColor7Coordinates>DRACO_1_Coordinates.aara</DiffuseColor7Coordinates>
+      <DiffuseColor8Coordinates>DRACO_1_Coordinates.aara</DiffuseColor8Coordinates>
+      <DiffuseColor9Coordinates>DRACO_1_Coordinates.aara</DiffuseColor9Coordinates>
+      <DiffuseColor10Coordinates>DRACO_1_Coordinates.aara</DiffuseColor10Coordinates>
+    </Coordinates>
+    <Textures>
+      <DiffuseColor1Texture>DRACO_1\0_1_1.tif</DiffuseColor1Texture>
+      <DiffuseColor1Weights>DRACO_1_Weights.aara</DiffuseColor1Weights>
+      <DiffuseColor2Texture>Earth\0_1_1.tif</DiffuseColor2Texture>
+      <DiffuseColor2Weights>DRACO_1_Weights.aara</DiffuseColor2Weights>
+      <DiffuseColor3Texture>LonLatRad\0_1_1.exr</DiffuseColor3Texture>
+      <DiffuseColor3Weights>DRACO_1_Weights.aara</DiffuseColor3Weights>
+      <DiffuseColor4Texture>Normal\0_1_1.exr</DiffuseColor4Texture>
+      <DiffuseColor4Weights>DRACO_1_Weights.aara</DiffuseColor4Weights>
+      <DiffuseColor5Texture>Gravity\0_1_1.exr</DiffuseColor5Texture>
+      <DiffuseColor5Weights>DRACO_1_Weights.aara</DiffuseColor5Weights>
+      <DiffuseColor6Texture>Magnitude\0_1_1.exr</DiffuseColor6Texture>
+      <DiffuseColor6Weights>DRACO_1_Weights.aara</DiffuseColor6Weights>
+      <DiffuseColor7Texture>Potential\0_1_1.exr</DiffuseColor7Texture>
+      <DiffuseColor7Weights>DRACO_1_Weights.aara</DiffuseColor7Weights>
+      <DiffuseColor8Texture>Elevation\0_1_1.exr</DiffuseColor8Texture>
+      <DiffuseColor8Weights>DRACO_1_Weights.aara</DiffuseColor8Weights>
+      <DiffuseColor9Texture>Slope\0_1_1.exr</DiffuseColor9Texture>
+      <DiffuseColor9Weights>DRACO_1_Weights.aara</DiffuseColor9Weights>
+      <DiffuseColor10Texture>DRACO_2\0_1_1.tif</DiffuseColor10Texture>
+      <DiffuseColor10Weights>DRACO_1_Weights.aara</DiffuseColor10Weights>
+    </Textures>
+  </Patch>
+</Aardvark>
