@@ -1,0 +1,34 @@
+{
+  "product_information": {
+    "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+    "schema_version": 7262,
+    "product_type": "simulated image",
+    "product_state": "generated",
+    "creator_id": "pro3d-tool simulate-image",
+    "creation_datetime": "2026-09-23T13:56:53.0850797Z"
+  },
+  "label": "Vis_1",
+  "image_width": 640,
+  "image_height": 512,
+  "channels": 1,
+  "data_type": "float",
+  "file_md5": "",
+  "image_file_format": "tif",
+  "compression_type": "none",
+  "image_statistics": [
+    {
+      "minimum": 0,
+      "maximum": 0.30915752053260803,
+      "mean": 0.0006398032244817386,
+      "median": 0.0006398032244817386,
+      "standard_deviation": 0.010270457790577628,
+      "variance": 0.00010548230322803668
+    }
+  ],
+  "mission_name": "HERA",
+  "camera_system": "ASPECT",
+  "mbi_frame": {
+    "label": "Vis_1",
+    "wavelength": 690
+  }
+}
