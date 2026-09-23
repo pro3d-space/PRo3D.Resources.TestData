@@ -1,0 +1,117 @@
+{
+  "instrument": "AFC1",
+  "fits_hdu_headers": [
+    {
+      "SIMPLE": {
+        "value": true,
+        "comment": "conforms to mbi standard"
+      },
+      "BITPIX": {
+        "value": 8,
+        "comment": ""
+      },
+      "NAXIS": {
+        "value": 2,
+        "comment": ""
+      },
+      "NAXIS1": {
+        "value": 1020,
+        "comment": ""
+      },
+      "NAXIS2": {
+        "value": 1020,
+        "comment": ""
+      },
+      "INSTRUME": {
+        "value": "AFC1",
+        "comment": ""
+      },
+      "ORIGIN": {
+        "value": "pro3d-tool simulate-image",
+        "comment": "simulated instrument image"
+      },
+      "FILENAME": {
+        "value": "AFC1_SIM_20270321_200000.mbi.json",
+        "comment": ""
+      },
+      "DATE": {
+        "value": "2026-09-23T13:56:48.435Z",
+        "comment": "File creation time UTC"
+      },
+      "DATE-OBS": {
+        "value": "2027-03-21T20:00:00.000Z",
+        "comment": "Observation time UTC"
+      },
+      "TARGET": {
+        "value": "DIMORPHOS",
+        "comment": "Observation target"
+      },
+      "SPICE_MK": {
+        "value": "hera_plan",
+        "comment": "SPICE metakernel"
+      },
+      "SUN_POSX": {
+        "value": 47740735.08270404,
+        "comment": "Sun position vector X [km]"
+      },
+      "SUN_POSY": {
+        "value": -164138064.7146421,
+        "comment": "Sun position vector Y [km]"
+      },
+      "SUN_POSZ": {
+        "value": -77583035.08690833,
+        "comment": "Sun position vector Z [km]"
+      },
+      "EARTPOSX": {
+        "value": -101267103.85213543,
+        "comment": "Earth position vector X [km]"
+      },
+      "EARTPOSY": {
+        "value": -165566195.8489854,
+        "comment": "Earth position vector Y [km]"
+      },
+      "EARTPOSZ": {
+        "value": -78200946.64316674,
+        "comment": "Earth position vector Z [km]"
+      },
+      "TRG_POSX": {
+        "value": -0.26240095496177673,
+        "comment": "Target position vector X [km] (target minus spacecraft)"
+      },
+      "TRG_POSY": {
+        "value": 6.6689540445804605,
+        "comment": "Target position vector Y [km] (target minus spacecraft)"
+      },
+      "TRG_POSZ": {
+        "value": -0.6609487831592571,
+        "comment": "Target position vector Z [km] (target minus spacecraft)"
+      },
+      "TRG_DIST": {
+        "value": 6.706761931353359,
+        "comment": "Target distance [km]"
+      },
+      "SC_QUAT0": {
+        "value": 0.5562791552004188,
+        "comment": "Spacecraft quaternion w (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT1": {
+        "value": -0.6283268054880742,
+        "comment": "Spacecraft quaternion x (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT2": {
+        "value": 0.3914256392903656,
+        "comment": "Spacecraft quaternion y (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT3": {
+        "value": 0.37755118315374026,
+        "comment": "Spacecraft quaternion z (spacecraft -\u003E J2000)"
+      }
+    }
+  ],
+  "bands": [
+    {
+      "index": 0,
+      "file_path": "AFC1_SIM_20270321_200000.png"
+    }
+  ]
+}
