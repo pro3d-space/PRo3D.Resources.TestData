@@ -38,10 +38,19 @@ replaced on every run; each step's full messages are in a `.log` file next to it
 
 ## What each step does
 
+Each step below shows the command the script runs, so you can run it on its own or change
+it. Run the commands in this folder. They are written with `\` at the end of a line to
+continue on the next one; in the Windows command prompt use `^` instead, or put everything
+on one line. The paths work unchanged on Windows.
+
 ### 1 · Check a shape model — `kdtree`
 
 Checks the Didymos shape model (`HERA/Didymos_ASPECT`) and the search trees that let the other
 steps find where a line of sight meets the surface. Shape models without them get them built.
+
+```
+pro3d-tool kdtree HERA/Didymos_ASPECT
+```
 
 **Look at:** `demo-output/1-check-shape-model.log`.
 
@@ -52,6 +61,14 @@ three angles: how high the sun stands over the surface there (**incidence**), ho
 camera looks at it (**emission**), and the angle between sun and camera (**phase**). These
 are what you need to compare the brightness of different places fairly.
 
+```
+pro3d-tool sun-angles \
+    --opc         HERA/Didymos_ASPECT \
+    --images      "HERA/Instrument Data" \
+    --out         demo-output/2-lighting-angles \
+    --false-color
+```
+
 **Look at:** `demo-output/2-lighting-angles/` — one image per angle, blue for small and red
 for large angles, plus the exact values as TIFF files, pixel for pixel on top of the original.
 
@@ -59,6 +76,14 @@ for large angles, plus the exact values as TIFF files, pixel for pixel on top of
 
 Three points were picked in the ASPECT image (`demo/aspect-points.csv`: the image centre, a
 boulder, a point near the edge of the asteroid). This step finds where each lies on Didymos.
+
+```
+pro3d-tool unproject \
+    --opc    HERA/Didymos_ASPECT \
+    --images "HERA/Instrument Data" \
+    --input  demo/aspect-points.csv \
+    --out    demo-output/3-image-points-on-surface.csv
+```
 
 **Look at:** `demo-output/3-image-points-on-surface.csv` — per point its position on the
 asteroid in metres, latitude, longitude and height, and its distance from the camera. A point
@@ -79,6 +104,45 @@ them slightly elsewhere; see the [simulate-image documentation](https://github.c
 Then one of the AFC images is projected back onto the shape model and rendered again from the
 same camera. If everything is consistent, the result looks exactly like the image itself.
 
+The three instruments at 14:00, and the projection check (the script also renders 20:00, and
+checks that image):
+
+```
+pro3d-tool simulate-image \
+    --opc        HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos \
+    --time       2027-03-21T14:00:00Z \
+    --aim        DIMORPHOS \
+    --instrument HERA_AFC-1 \
+    --write-mbi \
+    --gain       4.5 \
+    --out        demo-output/4-simulated-images/AFC/AFC1_SIM_20270321_140000.png
+
+pro3d-tool simulate-image \
+    --opc        HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos \
+    --time       2027-03-21T14:00:00Z \
+    --aim        DIMORPHOS \
+    --instrument HERA_HSH \
+    --product \
+    --out        demo-output/4-simulated-images/HyperScout/HSH_SIM_20270321_140000.tif
+
+pro3d-tool simulate-image \
+    --opc        HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos \
+    --time       2027-03-21T14:00:00Z \
+    --aim        DIMORPHOS \
+    --instrument MILANI_ASPECT_NIR1 \
+    --product \
+    --out        demo-output/4-simulated-images/ASPECT/ASP_SIM_20270321_140000.tif
+
+pro3d-tool simulate-image \
+    --opc     HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos \
+    --project demo-output/4-simulated-images/AFC/AFC1_SIM_20270321_140000.png \
+    --out     demo-output/4-projection-check.png
+```
+
+`--write-mbi` adds the description file to the AFC image; the spectral images (`--product`)
+always get one. `--gain` sets the brightness of the AFC image, the same for every time, so
+images of different times can be compared.
+
 **Look at:** `demo-output/4-simulated-images/` (`AFC/` holds PNG images; `HyperScout/` and
 `ASPECT/` hold multi-band TIFF images, which image tools such as QGIS can open) and
 `demo-output/4-projection-check.png` next to
@@ -92,6 +156,16 @@ orientations, so their pixels cannot be compared directly. This step compares th
 asteroid instead: for every point of the Dimorphos shape model (2.3 million) it records which
 images see that point, where in each image it lies, the lighting angles there, and the value
 of every colour band — plus the surface's slope and gravity at that point.
+
+```
+pro3d-tool sample-layers \
+    --opc        HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos \
+    --images     demo-output/4-simulated-images/AFC \
+                 demo-output/4-simulated-images/HyperScout \
+                 demo-output/4-simulated-images/ASPECT \
+    --attributes Slope,Gravity \
+    --out        demo-output/5-all-instruments-on-surface
+```
 
 **Look at:** `demo-output/5-all-instruments-on-surface/`:
 
