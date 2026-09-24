@@ -35,11 +35,11 @@
         "comment": "simulated instrument image"
       },
       "FILENAME": {
-        "value": "HSH_SIM_20270321_140000.mbi.json",
+        "value": "HSH_SIM_20270321_140000_Stacked.tif",
         "comment": ""
       },
       "DATE": {
-        "value": "2026-09-23T13:56:28.906Z",
+        "value": "2026-09-24T07:02:44.108Z",
         "comment": "File creation time UTC"
       },
       "DATE-OBS": {
@@ -79,11 +79,11 @@
         "comment": "Earth position vector Z [km]"
       },
       "TRG_POSX": {
-        "value": -1.2426451146602646,
+        "value": -1.242645114660266,
         "comment": "Target position vector X [km] (target minus spacecraft)"
       },
       "TRG_POSY": {
-        "value": 7.501067548990251,
+        "value": 7.501067548990252,
         "comment": "Target position vector Y [km] (target minus spacecraft)"
       },
       "TRG_POSZ": {
@@ -95,20 +95,24 @@
         "comment": "Target distance [km]"
       },
       "SC_QUAT0": {
-        "value": 0.7349111800131681,
+        "value": 0.731295633721476,
         "comment": "Spacecraft quaternion w (spacecraft -\u003E J2000)"
       },
       "SC_QUAT1": {
-        "value": -0.5514595141880273,
+        "value": -0.556449095446943,
         "comment": "Spacecraft quaternion x (spacecraft -\u003E J2000)"
       },
       "SC_QUAT2": {
-        "value": 0.16750252685610187,
+        "value": 0.16643023539690982,
         "comment": "Spacecraft quaternion y (spacecraft -\u003E J2000)"
       },
       "SC_QUAT3": {
-        "value": 0.3574085410283009,
+        "value": 0.3575920539132728,
         "comment": "Spacecraft quaternion z (spacecraft -\u003E J2000)"
+      },
+      "PRO3DAIM": {
+        "value": "DIMORPHOS",
+        "comment": "AIMED at this body, not the planned pointing: not a planned observation"
       }
     }
   ],

@@ -6,9 +6,16 @@ Simulated observations of Dimorphos by three HERA instruments at the same four e
 [`pro3d-tool sample-layers`](https://github.com/pro3d-space/PRo3D/blob/develop/docs/Pro3DTool-SampleLayers.md),
 and projectable in the viewer like delivered data.
 
-Rendered against **`../Dimorphos`**, the OPC next to this folder, with
-`pro3d-tool simulate-image` and the `hera_plan` metakernel (v182, 2026-08-20). The
-frames are only meaningful on the shape model they came from.
+Rendered against **`../Dimorphos_DRACO1_DRACO2_Earth/Dimorphos`**, the OPC next to this
+folder, with `pro3d-tool simulate-image` and the `hera_plan` metakernel (v182, 2026-08-20).
+The frames are only meaningful on the shape model they came from.
+
+> **⚠ Aimed, not planned.** Every instrument is aimed at Dimorphos
+> (`simulate-image --aim DIMORPHOS`) instead of left on its planned pointing: Milani's plan
+> puts Dimorphos 2–3° off ASPECT's boresight, at the frame edge and at 14:00 partly
+> outside it. The epochs, spacecraft positions, sun and roll are the planned ones; the
+> pointing is not. Every sidecar says so with `PRO3DAIM = DIMORPHOS`. Do not use these
+> frames to study what the mission will actually capture.
 
 | Folder | Instrument | Spacecraft | Per epoch |
 |---|---|---|---|
@@ -35,10 +42,10 @@ a delivered cube. PRo3D, GDAL and any LibTiff reader decompress them transparent
 ## Using it
 
 ```
-pro3d-tool sample-layers --opc ..\Dimorphos --images AFC ASPECT HSH --out sample-layers
+pro3d-tool sample-layers --opc ..\Dimorphos_DRACO1_DRACO2_Earth\Dimorphos --images AFC ASPECT HSH --out sample-layers
 ```
 
-In the viewer: open `../Dimorphos`, bind it to entity *Dimorphos* / frame
+In the viewer: open `../Dimorphos_DRACO1_DRACO2_Earth/Dimorphos`, bind it to entity *Dimorphos* / frame
 *DIMORPHOS_FIXED* (GIS tab → Surfaces), set the observed body to *Dimorphos*, then GIS tab →
 **Projected Images** → *Import Directory* on one of the three folders. ASPECT is observed
 from Milani at about 19 km and HyperScout at 7–8 km with 8.6 m pixels, so Dimorphos is only
@@ -47,7 +54,7 @@ from Milani at about 19 km and HyperScout at 7–8 km with 8.6 m pixels, so Dimo
 ## Regenerating
 
 ```
-python scripts/make-sample-layers-test-data.py --opc <this repo>/HERA/Dimorphos_opc/Dimorphos --out <this folder>
+python scripts/make-sample-layers-test-data.py --opc <this repo>/HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos --out <this folder>
 ```
 
 (the script lives in the PRo3D repository).

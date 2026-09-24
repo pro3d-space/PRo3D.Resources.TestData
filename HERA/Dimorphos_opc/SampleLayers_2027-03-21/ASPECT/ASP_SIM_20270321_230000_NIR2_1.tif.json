@@ -5,7 +5,7 @@
     "product_type": "simulated image",
     "product_state": "generated",
     "creator_id": "pro3d-tool simulate-image",
-    "creation_datetime": "2026-09-23T13:57:08.4728273Z"
+    "creation_datetime": "2026-09-24T07:03:53.5535820Z"
   },
   "label": "NIR2_1",
   "image_width": 640,
@@ -14,15 +14,15 @@
   "data_type": "float",
   "file_md5": "",
   "image_file_format": "tif",
-  "compression_type": "none",
+  "compression_type": "deflate",
   "image_statistics": [
     {
       "minimum": 0,
-      "maximum": 0.390558123588562,
-      "mean": 0.0009189276729216544,
-      "median": 0.0009189276729216544,
-      "standard_deviation": 0.013674156809930426,
-      "variance": 0.00018698256446256667
+      "maximum": 0.3827909231185913,
+      "mean": 0.0009150706478152415,
+      "median": 0.0009150706478152415,
+      "standard_deviation": 0.013626975641304898,
+      "variance": 0.00018569446512871704
     }
   ],
   "mission_name": "HERA",
