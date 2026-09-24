@@ -3,6 +3,13 @@
 Binary test fixtures for the PRo3D test suite, kept out of the main
 [PRo3D](https://github.com/pro3d-space/PRo3D) repository so that a plain clone stays small.
 
+## Try pro3d-tool
+
+`demo.cmd` (Windows) or `./demo.sh` (macOS, Linux) runs every `pro3d-tool` feature end to end
+on this data: shape model check, lighting angles, image points on the surface, simulated
+AFC / HyperScout / ASPECT images, and all of them combined on Dimorphos. What you need and
+what comes out: **[DEMO.md](DEMO.md)**.
+
 ## Contents
 
 | Path | Description |
