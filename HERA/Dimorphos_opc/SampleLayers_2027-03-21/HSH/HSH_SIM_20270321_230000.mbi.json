@@ -35,11 +35,11 @@
         "comment": "simulated instrument image"
       },
       "FILENAME": {
-        "value": "HSH_SIM_20270321_230000.mbi.json",
+        "value": "HSH_SIM_20270321_230000_Stacked.tif",
         "comment": ""
       },
       "DATE": {
-        "value": "2026-09-23T13:57:13.423Z",
+        "value": "2026-09-24T07:04:00.372Z",
         "comment": "File creation time UTC"
       },
       "DATE-OBS": {
@@ -79,11 +79,11 @@
         "comment": "Earth position vector Z [km]"
       },
       "TRG_POSX": {
-        "value": -1.68317311257124,
+        "value": -1.6831731125712404,
         "comment": "Target position vector X [km] (target minus spacecraft)"
       },
       "TRG_POSY": {
-        "value": 7.978539496660233,
+        "value": 7.978539496660234,
         "comment": "Target position vector Y [km] (target minus spacecraft)"
       },
       "TRG_POSZ": {
@@ -91,24 +91,28 @@
         "comment": "Target position vector Z [km] (target minus spacecraft)"
       },
       "TRG_DIST": {
-        "value": 8.390640458296707,
+        "value": 8.390640458296708,
         "comment": "Target distance [km]"
       },
       "SC_QUAT0": {
-        "value": -0.42048309438219905,
+        "value": -0.4159254946913427,
         "comment": "Spacecraft quaternion w (spacecraft -\u003E J2000)"
       },
       "SC_QUAT1": {
-        "value": 0.6343017034101317,
+        "value": 0.6375289633820599,
         "comment": "Spacecraft quaternion x (spacecraft -\u003E J2000)"
       },
       "SC_QUAT2": {
-        "value": -0.46196152333615964,
+        "value": -0.4598143631252125,
         "comment": "Spacecraft quaternion y (spacecraft -\u003E J2000)"
       },
       "SC_QUAT3": {
-        "value": -0.45546335455962966,
+        "value": -0.45731122354312864,
         "comment": "Spacecraft quaternion z (spacecraft -\u003E J2000)"
+      },
+      "PRO3DAIM": {
+        "value": "DIMORPHOS",
+        "comment": "AIMED at this body, not the planned pointing: not a planned observation"
       }
     }
   ],

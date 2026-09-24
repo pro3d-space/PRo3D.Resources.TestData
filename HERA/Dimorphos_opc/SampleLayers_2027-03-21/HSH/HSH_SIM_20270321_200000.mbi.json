@@ -35,11 +35,11 @@
         "comment": "simulated instrument image"
       },
       "FILENAME": {
-        "value": "HSH_SIM_20270321_200000.mbi.json",
+        "value": "HSH_SIM_20270321_200000_Stacked.tif",
         "comment": ""
       },
       "DATE": {
-        "value": "2026-09-23T13:56:59.008Z",
+        "value": "2026-09-24T07:03:34.198Z",
         "comment": "File creation time UTC"
       },
       "DATE-OBS": {
@@ -79,36 +79,40 @@
         "comment": "Earth position vector Z [km]"
       },
       "TRG_POSX": {
-        "value": -0.2624009549617765,
+        "value": -0.26240095496177684,
         "comment": "Target position vector X [km] (target minus spacecraft)"
       },
       "TRG_POSY": {
-        "value": 6.6689540445804605,
+        "value": 6.66895404458046,
         "comment": "Target position vector Y [km] (target minus spacecraft)"
       },
       "TRG_POSZ": {
-        "value": -0.6609487831592575,
+        "value": -0.6609487831592566,
         "comment": "Target position vector Z [km] (target minus spacecraft)"
       },
       "TRG_DIST": {
-        "value": 6.706761931353359,
+        "value": 6.706761931353358,
         "comment": "Target distance [km]"
       },
       "SC_QUAT0": {
-        "value": 0.5594764664138729,
+        "value": 0.5550792269075708,
         "comment": "Spacecraft quaternion w (spacecraft -\u003E J2000)"
       },
       "SC_QUAT1": {
-        "value": -0.6247305097021123,
+        "value": -0.6286815280040008,
         "comment": "Spacecraft quaternion x (spacecraft -\u003E J2000)"
       },
       "SC_QUAT2": {
-        "value": 0.3939260065497495,
+        "value": 0.3924720908886126,
         "comment": "Spacecraft quaternion y (spacecraft -\u003E J2000)"
       },
       "SC_QUAT3": {
-        "value": 0.37619167340619347,
+        "value": 0.377640366057138,
         "comment": "Spacecraft quaternion z (spacecraft -\u003E J2000)"
+      },
+      "PRO3DAIM": {
+        "value": "DIMORPHOS",
+        "comment": "AIMED at this body, not the planned pointing: not a planned observation"
       }
     }
   ],

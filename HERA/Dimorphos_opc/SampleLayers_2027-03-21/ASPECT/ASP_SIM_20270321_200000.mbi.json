@@ -35,11 +35,11 @@
         "comment": "simulated instrument image"
       },
       "FILENAME": {
-        "value": "ASP_SIM_20270321_200000.mbi.json",
+        "value": "ASP_SIM_20270321_200000_Vis_0.tif",
         "comment": ""
       },
       "DATE": {
-        "value": "2026-09-23T13:56:54.097Z",
+        "value": "2026-09-24T07:03:24.269Z",
         "comment": "File creation time UTC"
       },
       "DATE-OBS": {
@@ -79,36 +79,40 @@
         "comment": "Earth position vector Z [km]"
       },
       "TRG_POSX": {
-        "value": 8.327642500400543,
+        "value": 8.327642500400541,
         "comment": "Target position vector X [km] (target minus spacecraft)"
       },
       "TRG_POSY": {
-        "value": 10.923168301582336,
+        "value": 10.923168301582333,
         "comment": "Target position vector Y [km] (target minus spacecraft)"
       },
       "TRG_POSZ": {
-        "value": 9.661762416362768,
+        "value": 9.661762416362764,
         "comment": "Target position vector Z [km] (target minus spacecraft)"
       },
       "TRG_DIST": {
-        "value": 16.793298912048538,
+        "value": 16.793298912048535,
         "comment": "Target distance [km]"
       },
       "SC_QUAT0": {
-        "value": 0.8488224035420013,
+        "value": 0.8471902415576578,
         "comment": "Spacecraft quaternion w (spacecraft -\u003E J2000)"
       },
       "SC_QUAT1": {
-        "value": -0.4442344759038141,
+        "value": -0.43304679528573764,
         "comment": "Spacecraft quaternion x (spacecraft -\u003E J2000)"
       },
       "SC_QUAT2": {
-        "value": 0.13639119280599785,
+        "value": 0.1574905621881842,
         "comment": "Spacecraft quaternion y (spacecraft -\u003E J2000)"
       },
       "SC_QUAT3": {
-        "value": -0.25209859219876785,
+        "value": -0.2644539478319044,
         "comment": "Spacecraft quaternion z (spacecraft -\u003E J2000)"
+      },
+      "PRO3DAIM": {
+        "value": "DIMORPHOS",
+        "comment": "AIMED at this body, not the planned pointing: not a planned observation"
       }
     }
   ],
