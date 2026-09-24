@@ -1,0 +1,227 @@
+{
+  "format": "pro3d-layout",
+  "version": 1,
+  "name": "slowProfileExport",
+  "layout": {
+    "root": {
+      "type": "row",
+      "size": 1,
+      "content": [
+        {
+          "type": "stack",
+          "header": {
+            "show": "top"
+          },
+          "size": 45,
+          "content": [
+            {
+              "type": "component",
+              "title": "Main View",
+              "componentType": "render",
+              "isClosable": false,
+              "header": {
+                "show": "top"
+              },
+              "size": 1,
+              "componentState": {
+                "keepAlive": true
+              },
+              "sizeUnit": "fr"
+            }
+          ],
+          "sizeUnit": "%"
+        },
+        {
+          "type": "column",
+          "size": 54,
+          "content": [
+            {
+              "type": "stack",
+              "header": {
+                "show": "top"
+              },
+              "size": 38,
+              "content": [
+                {
+                  "type": "component",
+                  "title": "Surfaces",
+                  "componentType": "surfaces",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "Annotations",
+                  "componentType": "annotations",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "ScaleBars",
+                  "componentType": "scalebars",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "GIS View",
+                  "componentType": "gis",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                }
+              ],
+              "sizeUnit": "%"
+            },
+            {
+              "type": "stack",
+              "header": {
+                "show": "top"
+              },
+              "size": 61,
+              "content": [
+                {
+                  "type": "component",
+                  "title": "Config",
+                  "componentType": "config",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "Bookmarks",
+                  "componentType": "bookmarks",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "Seq. Bookmarks",
+                  "componentType": "sequencedBookmarks",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "Viewplans",
+                  "componentType": "viewplanner",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "Properties",
+                  "componentType": "properties",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                },
+                {
+                  "type": "component",
+                  "title": "Traverses",
+                  "componentType": "traverse",
+                  "isClosable": true,
+                  "header": {
+                    "show": "top"
+                  },
+                  "size": 1,
+                  "componentState": {
+                    "keepAlive": true
+                  },
+                  "sizeUnit": "fr"
+                }
+              ],
+              "sizeUnit": "%"
+            }
+          ],
+          "sizeUnit": "%"
+        }
+      ],
+      "sizeUnit": "fr"
+    },
+    "settings": {
+      "popInOnClose": true,
+      "popoutWholeStack": true,
+      "dragBetweenWindows": true,
+      "dragToNewWindow": true,
+      "setPopoutTitle": true
+    },
+    "dimensions": {
+      "defaultMinItemWidth": "20px",
+      "defaultMinItemHeight": "20px",
+      "dragProxyWidth": 300,
+      "dragProxyHeight": 200
+    },
+    "header": {
+      "close": "Close",
+      "maximise": "Maximize",
+      "minimise": "Minimize",
+      "popout": "Open in new window",
+      "popin": "Dock",
+      "tabDropdown": "Additional tabs"
+    },
+    "openPopouts": []
+  }
+}

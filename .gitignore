@@ -1,3 +1,5 @@
 outputs 
 demo-output/
 Aardvark.log
+# third-party import catalogs are private: keep them under PRO3D_PRIVATE_TESTDATA, never here
+imports/
