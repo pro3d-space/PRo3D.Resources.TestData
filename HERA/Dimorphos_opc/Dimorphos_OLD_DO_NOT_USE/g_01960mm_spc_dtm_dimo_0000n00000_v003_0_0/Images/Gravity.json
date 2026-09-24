@@ -1,0 +1,71 @@
+{
+    "product_information": {
+        "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+        "schema_version": 7262,
+        "product_type": "image",
+        "product_state": "imported",
+        "creator_id": "ModifyGpc",
+        "creation_datetime": "2026-09-09T08:10:24.379440+0000",
+        "description": "GPC attribute layer"
+    },
+    "schema_id": "https://www.joanneum.at/jim/camera_image.schema.json",
+    "schema_version": 8749,
+    "product_type": "image",
+    "image_width": 2163,
+    "image_height": 1081,
+    "channels": 3,
+    "data_type": "float",
+    "file_md5": "553c1c82439b3469078496504beb0202",
+    "image_file_format": "tif",
+    "compression_type": "none",
+    "map_transformation": [
+        0.0,
+        0.18501128843456588,
+        0.0,
+        6.9061843532836065e-06,
+        0.0,
+        0.18501128843456588
+    ],
+    "is_map_raster": true,
+    "no_data_value": -99999.0,
+    "image_statistics": [
+        {
+            "minimum": -3.989627293776721e-05,
+            "maximum": 4.098465433344245e-05,
+            "mean": 1.2668295056617374e-07,
+            "median": 9.0100765574979e-08,
+            "standard_deviation": 1.786831557900322e-05,
+            "variance": 3.192767016308491e-10
+        },
+        {
+            "minimum": -4.6144461521180347e-05,
+            "maximum": 4.618263483280316e-05,
+            "mean": 4.0878529525463914e-08,
+            "median": -2.3474989633382945e-10,
+            "standard_deviation": 2.0499747797062162e-05,
+            "variance": 4.20239659743155e-10
+        },
+        {
+            "minimum": -5.078775211586617e-05,
+            "maximum": 5.073607826489024e-05,
+            "mean": 1.0741007717431004e-07,
+            "median": 3.6965908889541533e-07,
+            "standard_deviation": 3.947785361964554e-05,
+            "variance": 1.5585009264141604e-09
+        }
+    ],
+    "pixel_value_scaling": [
+        {
+            "scaling_factor": 8.088092727120966e-05,
+            "value_offset": -3.989627293776721e-05
+        },
+        {
+            "scaling_factor": 9.23270963539835e-05,
+            "value_offset": -4.6144461521180347e-05
+        },
+        {
+            "scaling_factor": 0.00010152383038075641,
+            "value_offset": -5.078775211586617e-05
+        }
+    ]
+}

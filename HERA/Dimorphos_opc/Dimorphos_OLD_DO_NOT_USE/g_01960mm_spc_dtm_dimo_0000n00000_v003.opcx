@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark version="4">
+  <SurfaceAttributes version="0" num="0">
+    <AttributeLayers num="1" count="19">
+      <AttributeLayer version="0" num="2">
+        <Type>Texture</Type>
+        <Label>DRACO_1</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="3">
+        <Type>Texture</Type>
+        <Label>Earth</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="4">
+        <Type>Texture</Type>
+        <Label>LonLatRad</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="5">
+        <Type>Texture</Type>
+        <Label>Normal</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="6">
+        <Type>Texture</Type>
+        <Label>Gravity</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="7">
+        <Type>Texture</Type>
+        <Label>Magnitude</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="8">
+        <Type>Texture</Type>
+        <Label>Potential</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="9">
+        <Type>Texture</Type>
+        <Label>Elevation</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="10">
+        <Type>Texture</Type>
+        <Label>Slope</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="11">
+        <Type>Texture</Type>
+        <Label>DRACO_2</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="12">
+        <Type>Map</Type>
+        <Label>LonLatRad</Label>
+        <ChannelsDefinedRange>[[0.000000000, 359.833343506], [-90.000000000, 90.000000000], [56.492118835, 92.065292358]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[0.000000000, 359.833343506], [-90.000000000, 90.000000000], [56.492118835, 92.065292358]]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="13">
+        <Type>Map</Type>
+        <Label>Normal</Label>
+        <ChannelsDefinedRange>[[-0.999235153, 0.999634087], [-0.998093247, 0.999689162], [-0.999925375, 0.999974847]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[-0.999235153, 0.999634087], [-0.998093247, 0.999689162], [-0.999925375, 0.999974847]]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="14">
+        <Type>Map</Type>
+        <Label>Gravity</Label>
+        <ChannelsDefinedRange>[[-0.000039896, 0.000040985], [-0.000046144, 0.000046183], [-0.000050788, 0.000050736]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[-0.000039896, 0.000040985], [-0.000046144, 0.000046183], [-0.000050788, 0.000050736]]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="15">
+        <Type>Map</Type>
+        <Label>Magnitude</Label>
+        <ChannelsDefinedRange>[0.000037598, 0.000050796]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.000037598, 0.000050796]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="16">
+        <Type>Map</Type>
+        <Label>Potential</Label>
+        <ChannelsDefinedRange>[-0.005895421, -0.001222028]</ChannelsDefinedRange>
+        <ChannelsActualRange>[-0.005895421, -0.001222028]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="17">
+        <Type>Map</Type>
+        <Label>Elevation</Label>
+        <ChannelsDefinedRange>[0.003706196, 124.307319641]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.003706196, 124.307319641]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="18">
+        <Type>Map</Type>
+        <Label>Slope</Label>
+        <ChannelsDefinedRange>[0.360530615, 47.203220367]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.360530615, 47.203220367]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="19">
+        <Type>Map</Type>
+        <Label>DRACO_1</Label>
+        <ChannelsDefinedRange>[1.000000000, 255.000000000]</ChannelsDefinedRange>
+        <ChannelsActualRange>[1.000000000, 255.000000000]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="20">
+        <Type>Map</Type>
+        <Label>DRACO_2</Label>
+        <ChannelsDefinedRange>[[1.000000000, 255.000000000], [1.000000000, 255.000000000], [1.000000000, 255.000000000]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[1.000000000, 255.000000000], [1.000000000, 255.000000000], [1.000000000, 255.000000000]]</ChannelsActualRange>
+      </AttributeLayer>
+    </AttributeLayers>
+  </SurfaceAttributes>
+</Aardvark>

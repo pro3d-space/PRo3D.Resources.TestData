@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark>
+  <ImagePyramid>
+    <TagList/>
+    <AvgPixelSizes>[0.185011288, 0.369887048, 0.554672515]</AvgPixelSizes>
+    <RootTile>2_0_0</RootTile>
+    <SubTileMap>
+      <item>
+        <key>1_0_0</key>
+        <val>
+          <nw>0_0_0</nw>
+          <ne>0_0_1</ne>
+          <sw>0_1_0</sw>
+          <se>0_1_1</se>
+        </val>
+      </item>
+      <item>
+        <key>1_0_1</key>
+        <val>
+          <nw>0_0_2</nw>
+          <sw>0_1_2</sw>
+        </val>
+      </item>
+      <item>
+        <key>2_0_0</key>
+        <val>
+          <nw>1_0_0</nw>
+          <ne>1_0_1</ne>
+        </val>
+      </item>
+    </SubTileMap>
+  </ImagePyramid>
+</Aardvark>

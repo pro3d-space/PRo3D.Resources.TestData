@@ -1,0 +1,343 @@
+{
+  "instrument": "ASPECT",
+  "fits_hdu_headers": [
+    {
+      "SIMPLE": {
+        "value": true,
+        "comment": "conforms to mbi standard"
+      },
+      "BITPIX": {
+        "value": -32,
+        "comment": ""
+      },
+      "NAXIS": {
+        "value": 3,
+        "comment": ""
+      },
+      "NAXIS1": {
+        "value": 640,
+        "comment": ""
+      },
+      "NAXIS2": {
+        "value": 512,
+        "comment": ""
+      },
+      "NAXIS3": {
+        "value": 37,
+        "comment": ""
+      },
+      "INSTRUME": {
+        "value": "ASPECT",
+        "comment": ""
+      },
+      "ORIGIN": {
+        "value": "pro3d-tool simulate-image",
+        "comment": "simulated instrument image"
+      },
+      "FILENAME": {
+        "value": "ASP_SIM_20270321_170000_Vis_0.tif",
+        "comment": ""
+      },
+      "DATE": {
+        "value": "2026-09-24T07:03:00.948Z",
+        "comment": "File creation time UTC"
+      },
+      "DATE-OBS": {
+        "value": "2027-03-21T17:00:00.000Z",
+        "comment": "Observation time UTC"
+      },
+      "TARGET": {
+        "value": "DIMORPHOS",
+        "comment": "Observation target"
+      },
+      "SPICE_MK": {
+        "value": "hera_plan",
+        "comment": "SPICE metakernel"
+      },
+      "SUN_POSX": {
+        "value": 47422472.07777023,
+        "comment": "Sun position vector X [km]"
+      },
+      "SUN_POSY": {
+        "value": -164128508.34653032,
+        "comment": "Sun position vector Y [km]"
+      },
+      "SUN_POSZ": {
+        "value": -77558754.4877308,
+        "comment": "Sun position vector Z [km]"
+      },
+      "EARTPOSX": {
+        "value": -101583162.87847817,
+        "comment": "Earth position vector X [km]"
+      },
+      "EARTPOSY": {
+        "value": -165260480.96629542,
+        "comment": "Earth position vector Y [km]"
+      },
+      "EARTPOSZ": {
+        "value": -78048299.62708773,
+        "comment": "Earth position vector Z [km]"
+      },
+      "TRG_POSX": {
+        "value": 9.585841141641142,
+        "comment": "Target position vector X [km] (target minus spacecraft)"
+      },
+      "TRG_POSY": {
+        "value": 12.486747145652773,
+        "comment": "Target position vector Y [km] (target minus spacecraft)"
+      },
+      "TRG_POSZ": {
+        "value": 10.486287415027617,
+        "comment": "Target position vector Z [km] (target minus spacecraft)"
+      },
+      "TRG_DIST": {
+        "value": 18.91479390378902,
+        "comment": "Target distance [km]"
+      },
+      "SC_QUAT0": {
+        "value": 0.8408645092978271,
+        "comment": "Spacecraft quaternion w (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT1": {
+        "value": -0.4434687742621368,
+        "comment": "Spacecraft quaternion x (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT2": {
+        "value": 0.16167068686856104,
+        "comment": "Spacecraft quaternion y (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT3": {
+        "value": -0.2648488479590021,
+        "comment": "Spacecraft quaternion z (spacecraft -\u003E J2000)"
+      },
+      "PRO3DAIM": {
+        "value": "DIMORPHOS",
+        "comment": "AIMED at this body, not the planned pointing: not a planned observation"
+      }
+    }
+  ],
+  "bands": [
+    {
+      "index": 0,
+      "file_path": "ASP_SIM_20270321_170000_Vis_0.tif",
+      "label": "Vis_0",
+      "wavelength": 675
+    },
+    {
+      "index": 1,
+      "file_path": "ASP_SIM_20270321_170000_Vis_1.tif",
+      "label": "Vis_1",
+      "wavelength": 690
+    },
+    {
+      "index": 2,
+      "file_path": "ASP_SIM_20270321_170000_Vis_2.tif",
+      "label": "Vis_2",
+      "wavelength": 705
+    },
+    {
+      "index": 3,
+      "file_path": "ASP_SIM_20270321_170000_Vis_3.tif",
+      "label": "Vis_3",
+      "wavelength": 720
+    },
+    {
+      "index": 4,
+      "file_path": "ASP_SIM_20270321_170000_Vis_4.tif",
+      "label": "Vis_4",
+      "wavelength": 735
+    },
+    {
+      "index": 5,
+      "file_path": "ASP_SIM_20270321_170000_Vis_5.tif",
+      "label": "Vis_5",
+      "wavelength": 750
+    },
+    {
+      "index": 6,
+      "file_path": "ASP_SIM_20270321_170000_Vis_6.tif",
+      "label": "Vis_6",
+      "wavelength": 765
+    },
+    {
+      "index": 7,
+      "file_path": "ASP_SIM_20270321_170000_Vis_7.tif",
+      "label": "Vis_7",
+      "wavelength": 780
+    },
+    {
+      "index": 8,
+      "file_path": "ASP_SIM_20270321_170000_Vis_8.tif",
+      "label": "Vis_8",
+      "wavelength": 795
+    },
+    {
+      "index": 9,
+      "file_path": "ASP_SIM_20270321_170000_Vis_9.tif",
+      "label": "Vis_9",
+      "wavelength": 810
+    },
+    {
+      "index": 10,
+      "file_path": "ASP_SIM_20270321_170000_Vis_10.tif",
+      "label": "Vis_10",
+      "wavelength": 825
+    },
+    {
+      "index": 11,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_0.tif",
+      "label": "NIR1_0",
+      "wavelength": 875
+    },
+    {
+      "index": 12,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_1.tif",
+      "label": "NIR1_1",
+      "wavelength": 904.20738725
+    },
+    {
+      "index": 13,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_2.tif",
+      "label": "NIR1_2",
+      "wavelength": 933.40538359
+    },
+    {
+      "index": 14,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_3.tif",
+      "label": "NIR1_3",
+      "wavelength": 962.41926832
+    },
+    {
+      "index": 15,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_4.tif",
+      "label": "NIR1_4",
+      "wavelength": 991.59052354
+    },
+    {
+      "index": 16,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_5.tif",
+      "label": "NIR1_5",
+      "wavelength": 1020.78790557
+    },
+    {
+      "index": 17,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_6.tif",
+      "label": "NIR1_6",
+      "wavelength": 1050
+    },
+    {
+      "index": 18,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_7.tif",
+      "label": "NIR1_7",
+      "wavelength": 1079.21475545
+    },
+    {
+      "index": 19,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_8.tif",
+      "label": "NIR1_8",
+      "wavelength": 1108.41876944
+    },
+    {
+      "index": 20,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_9.tif",
+      "label": "NIR1_9",
+      "wavelength": 1137.4036651
+    },
+    {
+      "index": 21,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_10.tif",
+      "label": "NIR1_10",
+      "wavelength": 1166.57594038
+    },
+    {
+      "index": 22,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_11.tif",
+      "label": "NIR1_11",
+      "wavelength": 1195.77918273
+    },
+    {
+      "index": 23,
+      "file_path": "ASP_SIM_20270321_170000_NIR1_12.tif",
+      "label": "NIR1_12",
+      "wavelength": 1225
+    },
+    {
+      "index": 24,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_0.tif",
+      "label": "NIR2_0",
+      "wavelength": 1225
+    },
+    {
+      "index": 25,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_1.tif",
+      "label": "NIR2_1",
+      "wavelength": 1254.2242793
+    },
+    {
+      "index": 26,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_2.tif",
+      "label": "NIR2_2",
+      "wavelength": 1283.43620514
+    },
+    {
+      "index": 27,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_3.tif",
+      "label": "NIR2_3",
+      "wavelength": 1312.38308545
+    },
+    {
+      "index": 28,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_4.tif",
+      "label": "NIR2_4",
+      "wavelength": 1341.55680112
+    },
+    {
+      "index": 29,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_5.tif",
+      "label": "NIR2_5",
+      "wavelength": 1370.76774434
+    },
+    {
+      "index": 30,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_6.tif",
+      "label": "NIR2_6",
+      "wavelength": 1400
+    },
+    {
+      "index": 31,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_7.tif",
+      "label": "NIR2_7",
+      "wavelength": 1429.23686478
+    },
+    {
+      "index": 32,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_8.tif",
+      "label": "NIR2_8",
+      "wavelength": 1458.45946423
+    },
+    {
+      "index": 33,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_9.tif",
+      "label": "NIR2_9",
+      "wavelength": 1487.35519223
+    },
+    {
+      "index": 34,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_10.tif",
+      "label": "NIR2_10",
+      "wavelength": 1516.5310435
+    },
+    {
+      "index": 35,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_11.tif",
+      "label": "NIR2_11",
+      "wavelength": 1545.75237632
+    },
+    {
+      "index": 36,
+      "file_path": "ASP_SIM_20270321_170000_NIR2_12.tif",
+      "label": "NIR2_12",
+      "wavelength": 1575
+    }
+  ]
+}

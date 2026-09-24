@@ -1,0 +1,126 @@
+{
+  "instrument": "HSH",
+  "fits_hdu_headers": [
+    {
+      "SIMPLE": {
+        "value": true,
+        "comment": "conforms to mbi standard"
+      },
+      "BITPIX": {
+        "value": -32,
+        "comment": ""
+      },
+      "NAXIS": {
+        "value": 3,
+        "comment": ""
+      },
+      "NAXIS1": {
+        "value": 409,
+        "comment": ""
+      },
+      "NAXIS2": {
+        "value": 217,
+        "comment": ""
+      },
+      "NAXIS3": {
+        "value": 25,
+        "comment": ""
+      },
+      "INSTRUME": {
+        "value": "HSH",
+        "comment": ""
+      },
+      "ORIGIN": {
+        "value": "pro3d-tool simulate-image",
+        "comment": "simulated instrument image"
+      },
+      "FILENAME": {
+        "value": "HSH_SIM_20270321_230000_Stacked.tif",
+        "comment": ""
+      },
+      "DATE": {
+        "value": "2026-09-24T07:04:00.372Z",
+        "comment": "File creation time UTC"
+      },
+      "DATE-OBS": {
+        "value": "2027-03-21T23:00:00.000Z",
+        "comment": "Observation time UTC"
+      },
+      "TARGET": {
+        "value": "DIMORPHOS",
+        "comment": "Observation target"
+      },
+      "SPICE_MK": {
+        "value": "hera_plan",
+        "comment": "SPICE metakernel"
+      },
+      "SUN_POSX": {
+        "value": 48058887.17324949,
+        "comment": "Sun position vector X [km]"
+      },
+      "SUN_POSY": {
+        "value": -164147239.29404038,
+        "comment": "Sun position vector Y [km]"
+      },
+      "SUN_POSZ": {
+        "value": -77607134.72735105,
+        "comment": "Sun position vector Z [km]"
+      },
+      "EARTPOSX": {
+        "value": -100950462.80882649,
+        "comment": "Earth position vector X [km]"
+      },
+      "EARTPOSY": {
+        "value": -165871521.6742439,
+        "comment": "Earth position vector Y [km]"
+      },
+      "EARTPOSZ": {
+        "value": -78353409.77752036,
+        "comment": "Earth position vector Z [km]"
+      },
+      "TRG_POSX": {
+        "value": -1.6831731125712404,
+        "comment": "Target position vector X [km] (target minus spacecraft)"
+      },
+      "TRG_POSY": {
+        "value": 7.978539496660234,
+        "comment": "Target position vector Y [km] (target minus spacecraft)"
+      },
+      "TRG_POSZ": {
+        "value": -1.97805032134056,
+        "comment": "Target position vector Z [km] (target minus spacecraft)"
+      },
+      "TRG_DIST": {
+        "value": 8.390640458296708,
+        "comment": "Target distance [km]"
+      },
+      "SC_QUAT0": {
+        "value": -0.4159254946913427,
+        "comment": "Spacecraft quaternion w (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT1": {
+        "value": 0.6375289633820599,
+        "comment": "Spacecraft quaternion x (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT2": {
+        "value": -0.4598143631252125,
+        "comment": "Spacecraft quaternion y (spacecraft -\u003E J2000)"
+      },
+      "SC_QUAT3": {
+        "value": -0.45731122354312864,
+        "comment": "Spacecraft quaternion z (spacecraft -\u003E J2000)"
+      },
+      "PRO3DAIM": {
+        "value": "DIMORPHOS",
+        "comment": "AIMED at this body, not the planned pointing: not a planned observation"
+      }
+    }
+  ],
+  "bands": [
+    {
+      "index": 0,
+      "file_path": "HSH_SIM_20270321_230000_Stacked.tif",
+      "label": "Stacked"
+    }
+  ]
+}
