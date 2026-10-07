@@ -106,7 +106,7 @@ the size of that bias.
 ## Regenerating
 
 ```
-pro3d-tool simulate-image --opc <...>\Dimorphos_opc\Dimorphos \
+pro3d-tool simulate-image --opc <...>\Dimorphos_opc\Dimorphos_DRACO1_DRACO2_Earth\Dimorphos \
     --time 2027-03-21T20:00:00Z --body DIMORPHOS --frame DIMORPHOS_FIXED \
     --observer HERA --instrument HERA_AFC-1 \
     --texture-only --texture-layer DRACO_2 --write-mbi \
@@ -123,7 +123,7 @@ Or generate the whole set in one go, which is how it was made — the script als
 checks every sidecar it writes and reports any render that failed:
 
 ```
-python scripts/make-projection-test-data.py     --opc <...>/Dimorphos_opc/Dimorphos --out <this folder>     --texture-layer DRACO_2 --scene-template <an existing .pro3d>
+python scripts/make-projection-test-data.py     --opc <...>/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos --out <this folder>     --texture-layer DRACO_2 --scene-template <an existing .pro3d>
 ```
 
 Needs SPICE kernels — `PRO3D_SPICE_KERNELS` pointing at a clone of
