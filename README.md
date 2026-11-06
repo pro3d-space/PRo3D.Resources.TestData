@@ -18,6 +18,7 @@ what comes out: **[DEMO.md](DEMO.md)**.
 | `HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos/` | Dimorphos OPC (1.2 GB; DRACO_1/DRACO_2/Earth texture layers, outward-wound) — the shape model for image-projection tests |
 | `HERA/Dimorphos_opc/AFC_2027-03-21/` | simulated HERA/AFC-1 frames of that OPC with `.mbi.json` sidecars describing the exact render camera, plus a scene template; used by PRo3D's `tests-ui` (`PRO3D_TEST_DATA`) — see its README |
 | `HERA/Dimorphos_opc/SampleLayers_2027-03-21/` | simulated observations of that OPC by AFC-1 (PNG), ASPECT (37-band float TIFFs) and HyperScout (25-plane float TIFF) at four epochs, with `.mbi.json` sidecars — input for `pro3d-tool sample-layers`, projectable in the viewer. The spectra are synthetic — see its README |
+| `HERA/comet-toolbox/` | eight screenshots of [comet-toolbox](https://comet-toolbox.com/dashboard/hera/)'s HERA AFC-1 view (392 px, SPICE Planning `v182_20261020_001`): reference frames for `pro3d-tool render-view`. **The comet-toolbox authors' work; credit them** — see [its README](HERA/comet-toolbox/README.md) |
 | `HERA/Dimorphos_dsk/` | the Dimorphos shape model the Hera SPICE kernels ship (39 MB gzipped OBJ, 0.24 m facets, in **kilometres**) — the fine shape `pro3d-tool --obj` renders from, and the one a SPICE ray-cast of the kernels' own DSK agrees with exactly. **Separately licensed, CC BY-NC 3.0 IGO — see [its CREDITS.md](HERA/Dimorphos_dsk/CREDITS.md)** |
 
 ## How PRo3D consumes this
