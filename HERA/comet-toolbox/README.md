@@ -27,8 +27,11 @@ eclipses it.
 
 ## Use
 
-`scripts/compare-render-view-toolbox.py` in [PRo3D](https://github.com/pro3d-space/PRo3D)
-renders each epoch with `pro3d-tool render-view` and compares the result with these frames.
-Its camera comes from the job generator, which is described in
-[Pro3DTool-RenderView.md → The SPICE job generator](https://github.com/pro3d-space/PRo3D/blob/f7b172401bd451422a4654f021507f8c7b5f5777/docs/Pro3DTool-RenderView.md#the-spice-job-generator).
+- [`scripts/compare-render-view-toolbox.py`](https://github.com/pro3d-space/PRo3D/blob/adc61b02a14022ff966208547e0534bd3fbc85d5/scripts/compare-render-view-toolbox.py)
+  renders each epoch with `pro3d-tool render-view`, once per pointing, and compares the
+  result with these frames.
+- [`scripts/render-view-job.py`](https://github.com/pro3d-space/PRo3D/blob/adc61b02a14022ff966208547e0534bd3fbc85d5/scripts/render-view-job.py)
+  computes the camera from SPICE: the job generator, documented in
+  [Pro3DTool-RenderView.md → The SPICE job generator](https://github.com/pro3d-space/PRo3D/blob/adc61b02a14022ff966208547e0534bd3fbc85d5/docs/Pro3DTool-RenderView.md#the-spice-job-generator).
+
 No automated test reads these files.
