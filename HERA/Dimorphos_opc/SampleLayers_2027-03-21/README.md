@@ -6,8 +6,10 @@ Simulated observations of Dimorphos by three HERA instruments at the same four e
 [`pro3d-tool sample-layers`](https://github.com/pro3d-space/PRo3D/blob/develop/docs/Pro3DTool-SampleLayers.md),
 and projectable in the viewer like delivered data.
 
-Rendered against **`../Dimorphos_DRACO1_DRACO2_Earth/Dimorphos`**, the OPC next to this
-folder, with `pro3d-tool simulate-image` and the `hera_plan` metakernel (v182, 2026-08-20).
+Rendered against **`../Dimorphos_DRACO_V4/Dimorphos_DRACO`** (shape model v004), the OPC
+next to this folder, with `pro3d-tool simulate-image` and the `hera_plan` metakernel
+v182_20261105_001 (regenerated for PRo3D#882: HyperScout at its paraxial 15.5 x 8.3 deg,
+AFC at 5.5 deg).
 The frames are only meaningful on the shape model they came from.
 
 > **⚠ Aimed, not planned.** Every instrument is aimed at Dimorphos
@@ -42,10 +44,10 @@ a delivered cube. PRo3D, GDAL and any LibTiff reader decompress them transparent
 ## Using it
 
 ```
-pro3d-tool sample-layers --opc ..\Dimorphos_DRACO1_DRACO2_Earth\Dimorphos --images AFC ASPECT HSH --out sample-layers
+pro3d-tool sample-layers --opc ..\Dimorphos_DRACO_V4\Dimorphos_DRACO --images AFC ASPECT HSH --out sample-layers
 ```
 
-In the viewer: open `../Dimorphos_DRACO1_DRACO2_Earth/Dimorphos`, bind it to entity *Dimorphos* / frame
+In the viewer: open `../Dimorphos_DRACO_V4/Dimorphos_DRACO`, bind it to entity *Dimorphos* / frame
 *DIMORPHOS_FIXED* (GIS tab → Surfaces), set the observed body to *Dimorphos*, then GIS tab →
 **Projected Images** → *Import Directory* on one of the three folders. ASPECT is observed
 from Milani at about 19 km and HyperScout at 7–8 km with 8.6 m pixels, so Dimorphos is only
@@ -54,7 +56,7 @@ from Milani at about 19 km and HyperScout at 7–8 km with 8.6 m pixels, so Dimo
 ## Regenerating
 
 ```
-python scripts/make-sample-layers-test-data.py --opc <this repo>/HERA/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos --out <this folder>
+python scripts/make-sample-layers-test-data.py --opc <this repo>/HERA/Dimorphos_opc/Dimorphos_DRACO_V4/Dimorphos_DRACO --out <this folder>
 ```
 
 (the script lives in the PRo3D repository).

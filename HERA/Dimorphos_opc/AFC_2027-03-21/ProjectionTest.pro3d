@@ -72,15 +72,15 @@
     },
     "filterTexture": false,
     "frustumModel": {
-      "focal": 122.563,
+      "focal": 123.247,
       "frustum": {
-        "bottom": -0.003610374329172965,
+        "bottom": -0.003590337362422016,
         "far": 500000,
         "isOrtho": false,
-        "left": -0.004830168974323409,
+        "left": -0.004803362353647554,
         "near": 0.1,
-        "right": 0.004830168974323409,
-        "top": 0.003610374329172965
+        "right": 0.004803362353647554,
+        "top": 0.003590337362422016
       },
       "frustumOld": {
         "bottom": -0.0577350269189626,
@@ -437,7 +437,7 @@
     "selectedSceneObject": null,
     "version": 0
   },
-  "scenePath": "C:\\pro3ddata\\HERA\\workshop3\\Projection Test Data\\AFC_Dimorphos_v2_2027-03-21\\ProjectionTest.pro3d",
+  "scenePath": "C:\\Users\\haral\\Desktop\\pro3d\\PRo3D.Resources.TestData/HERA/Dimorphos_opc\\AFC_2027-03-21\\ProjectionTest.pro3d",
   "screenshotModel": {
     "backgroundColor": {
       "color": "[255, 255, 255, 255]"
@@ -534,17 +534,17 @@
             "highlightAlways": false,
             "highlightSelected": true,
             "homePosition": [],
-            "importPath": "C:\\pro3ddata\\HERA\\workshop3\\Dimorphos_opc\\Dimorphos",
+            "importPath": "C:\\Users\\haral\\Desktop\\pro3d\\PRo3D.Resources.TestData/HERA/Dimorphos_opc\\Dimorphos_DRACO_V4\\Dimorphos_DRACO",
             "isActive": true,
             "isVisible": true,
             "name": "Dimorphos",
             "opcNames": [
-              "g_01960mm_spc_dtm_dimo_0000n00000_v003_0_0"
+              "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_0_0"
             ],
             "opcPaths": [
-              "C:\\pro3ddata\\HERA\\workshop3\\Dimorphos_opc\\Dimorphos\\g_01960mm_spc_dtm_dimo_0000n00000_v003_0_0"
+              "C:\\Users\\haral\\Desktop\\pro3d\\PRo3D.Resources.TestData/HERA/Dimorphos_opc\\Dimorphos_DRACO_V4\\Dimorphos_DRACO\\dimorphos_g_0243mm_spc_dtm_0000n00000_v004_0_0"
             ],
-            "opcxPath": "C:\\pro3ddata\\HERA\\workshop3\\Dimorphos_opc\\Dimorphos\\g_01960mm_spc_dtm_dimo_0000n00000_v003.opcx",
+            "opcxPath": "C:\\Users\\haral\\Desktop\\pro3d\\PRo3D.Resources.TestData/HERA/Dimorphos_opc\\Dimorphos_DRACO_V4\\Dimorphos_DRACO\\dimorphos_g_0243mm_spc_dtm_0000n00000_v004.opcx",
             "preTransform": "[[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]], [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]]",
             "preferredMeshLoader": 0,
             "priority": {
@@ -999,7 +999,7 @@
             "secondaryTextureLayer": null,
             "selectedScalar": null,
             "selectedTexture": {
-              "index": 9,
+              "index": 19,
               "label": "DRACO_2",
               "version": 0
             },

@@ -1,0 +1,514 @@
+{
+    "product_information": {
+        "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+        "schema_version": 7262,
+        "product_type": "opc",
+        "product_state": "initial",
+        "creator_id": "ExportGpc",
+        "creation_datetime": "2026-10-20T11:02:37.095005+0000"
+    },
+    "input_products": [
+        {
+            "metadata_file": "C:\\Data\\Projects\\Hera\\workflows\\Hera_Vision_4-5_v2\\4_ModifyGpc\\Dimorphos_DRACO\\dimorphos_g_0243mm_spc_dtm_0000n00000_v004.gpc.json"
+        }
+    ],
+    "fits2mbi": {
+        "product_information": {
+            "schema_id": "https://www.joanneum.at/jim/product_information.schema.json",
+            "schema_version": 7262,
+            "product_type": "MultiBandImage (MBI)",
+            "product_state": "imported",
+            "creator_id": "Fits2Mbi",
+            "creation_datetime": "2026-10-20T10:55:12.326311+0000"
+        },
+        "mbi": {
+            "mission": "DART",
+            "target": "DIMORPHOS",
+            "fits_filename": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004.fits"
+        },
+        "mbi_bands": [
+            {
+                "index": 0,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_XYZ.tif",
+                "label": "XYZ",
+                "description": "Cartesian Vertex Coordinates in [m]",
+                "PLANES": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "index": 1,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_LonLatRad.tif",
+                "label": "LonLatRad",
+                "description": "Longitude [gon], Latitude [gon] and Radius [m] of vertices",
+                "PLANES": [
+                    2,
+                    1,
+                    3
+                ]
+            },
+            {
+                "index": 2,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_Normal.tif",
+                "label": "Normal",
+                "description": "Normal Vectors",
+                "PLANES": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "index": 3,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_Gravity.tif",
+                "label": "Gravity",
+                "description": "Gravity Vectors in [m/s^2]",
+                "PLANES": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "index": 4,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_Magnitude.tif",
+                "label": "Magnitude",
+                "description": "Gravitational magnitude in [m/s^2]",
+                "PLANES": [
+                    13
+                ]
+            },
+            {
+                "index": 5,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_Potential.tif",
+                "label": "Potential",
+                "description": "Gravitational potential in [J/kg]",
+                "PLANES": [
+                    14
+                ]
+            },
+            {
+                "index": 6,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_Elevation.tif",
+                "label": "Elevation",
+                "description": "Elevation in [m]",
+                "PLANES": [
+                    15
+                ]
+            },
+            {
+                "index": 7,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_Slope.tif",
+                "label": "Slope",
+                "description": "Slope in [deg]",
+                "PLANES": [
+                    16
+                ]
+            },
+            {
+                "index": 8,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_Area.tif",
+                "label": "Area",
+                "description": "Area in [km^2]",
+                "PLANES": [
+                    17
+                ]
+            },
+            {
+                "index": 9,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_FacetTiltDirection.tif",
+                "label": "FacetTiltDirection",
+                "description": "[deg]",
+                "PLANES": [
+                    19
+                ]
+            },
+            {
+                "index": 10,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_FacetTilt.tif",
+                "label": "FacetTilt",
+                "description": "[deg]",
+                "PLANES": [
+                    18
+                ]
+            },
+            {
+                "index": 11,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_MeanTilt.tif",
+                "label": "MeanTilt",
+                "description": "[deg]",
+                "PLANES": [
+                    20
+                ]
+            },
+            {
+                "index": 12,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_TiltVariation.tif",
+                "label": "TiltVariation",
+                "description": "[deg]",
+                "PLANES": [
+                    21
+                ]
+            },
+            {
+                "index": 13,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_MeanTiltDirection.tif",
+                "label": "MeanTiltDirection",
+                "description": "[deg]",
+                "PLANES": [
+                    22
+                ]
+            },
+            {
+                "index": 14,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_TiltDirectionVariation.tif",
+                "label": "TiltDirectionVariation",
+                "description": "[deg]",
+                "PLANES": [
+                    23
+                ]
+            },
+            {
+                "index": 15,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_RelativeTiltDirection.tif",
+                "label": "RelativeTiltDirection",
+                "description": "[deg]",
+                "PLANES": [
+                    25
+                ]
+            },
+            {
+                "index": 16,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_RelativeTilt.tif",
+                "label": "RelativeTilt",
+                "description": "[deg]",
+                "PLANES": [
+                    24
+                ]
+            },
+            {
+                "index": 17,
+                "file_path": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004_MaxRelativeHeight.tif",
+                "label": "MaxRelativeHeight",
+                "description": "[km]",
+                "PLANES": [
+                    26
+                ]
+            }
+        ],
+        "spice": {},
+        "fits_header": [
+            {
+                "SIMPLE": {
+                    "value": true,
+                    "comment": "Java FITS: Mon Sep 18 16:03:08 EDT 2023"
+                },
+                "BITPIX": {
+                    "value": -32,
+                    "comment": "bits per data value"
+                },
+                "NAXIS": {
+                    "value": 3,
+                    "comment": "number of axes"
+                },
+                "NAXIS1": {
+                    "value": 2161,
+                    "comment": "size of the n'th axis"
+                },
+                "NAXIS2": {
+                    "value": 1081,
+                    "comment": "size of the n'th axis"
+                },
+                "NAXIS3": {
+                    "value": 26,
+                    "comment": "size of the n'th axis"
+                },
+                "EXTEND": {
+                    "value": true,
+                    "comment": "Extensions are permitted"
+                },
+                "MISSION": {
+                    "value": "DART",
+                    "comment": "Name of mission"
+                },
+                "HOSTNAME": {
+                    "value": "DART",
+                    "comment": "PDS ID"
+                },
+                "TARGET": {
+                    "value": "DIMORPHOS",
+                    "comment": "Target object"
+                },
+                "ORIGIN": {
+                    "value": "DARTSOC",
+                    "comment": "DART Science Operations Center"
+                },
+                "MPHASE": {
+                    "value": "FINAL",
+                    "comment": "Mission phase"
+                },
+                "DATASRC": {
+                    "value": "SPC",
+                    "comment": "Shape model data source, i.e. 'SPC' or 'OLA'"
+                },
+                "DATASRCV": {
+                    "value": "dalyErnst_dimorphos230530",
+                    "comment": "Name and version of SPC model employed"
+                },
+                "DATASRCD": {
+                    "value": "2023-05-30T00:00:00",
+                    "comment": "Creation date of SPC model employed"
+                },
+                "OBJ_FILE": {
+                    "value": "dimorphos_g_0243mm_spc_obj_0000n00000_v004.obj",
+                    "comment": ""
+                },
+                "PRODNAME": {
+                    "value": "dimorphos_g_0243mm_spc_dtm_0000n00000_v004.fits",
+                    "comment": "Product filename"
+                },
+                "DATEPRD": {
+                    "value": "2023-09-18T20:16:06",
+                    "comment": "Date this product was produced in UTC"
+                },
+                "SOFTWARE": {
+                    "value": "SPC,DART-Pipeline",
+                    "comment": "Name of software used to create data"
+                },
+                "SOFT_VER": {
+                    "value": "3.0.5,2022-Dec-09 17:11:43 UTC",
+                    "comment": "Version of software used to create"
+                },
+                "MAP_NAME": {
+                    "value": "Non-NFT DTM",
+                    "comment": "Map data type"
+                },
+                "MAP_VER": {
+                    "value": "004",
+                    "comment": "Product version number"
+                },
+                "MAP_TYPE": {
+                    "value": "global",
+                    "comment": "Defines whether this is a global or local map"
+                },
+                "GSD": {
+                    "value": 243.86045508155618,
+                    "comment": "[mm] grid spacing in units/pixel"
+                },
+                "CLON": {
+                    "value": 0.0,
+                    "comment": "[deg] longitude at center of image"
+                },
+                "CLAT": {
+                    "value": 0.0,
+                    "comment": "[deg] latitude at center of image"
+                },
+                "LLCLNG": {
+                    "value": 180.0,
+                    "comment": "[deg]"
+                },
+                "LLCLAT": {
+                    "value": -90.0,
+                    "comment": "[deg]"
+                },
+                "URCLNG": {
+                    "value": 180.0,
+                    "comment": "[deg]"
+                },
+                "URCLAT": {
+                    "value": 90.0,
+                    "comment": "[deg]"
+                },
+                "LRCLNG": {
+                    "value": 180.0,
+                    "comment": "[deg]"
+                },
+                "LRCLAT": {
+                    "value": -90.0,
+                    "comment": "[deg]"
+                },
+                "ULCLNG": {
+                    "value": 180.0,
+                    "comment": "[deg]"
+                },
+                "ULCLAT": {
+                    "value": 90.0,
+                    "comment": "[deg]"
+                },
+                "PLANE1": {
+                    "value": "Latitude of vertices",
+                    "comment": "[deg]"
+                },
+                "PLANE2": {
+                    "value": "Longitude of vertices",
+                    "comment": "[deg]"
+                },
+                "PLANE3": {
+                    "value": "Radius of vertices",
+                    "comment": "[km]"
+                },
+                "PLANE4": {
+                    "value": "X coordinate of vertices",
+                    "comment": "[km]"
+                },
+                "PLANE5": {
+                    "value": "Y coordinate of vertices",
+                    "comment": "[km]"
+                },
+                "PLANE6": {
+                    "value": "Z coordinate of vertices",
+                    "comment": "[km]"
+                },
+                "PLANE7": {
+                    "value": "Normal vector X",
+                    "comment": ""
+                },
+                "PLANE8": {
+                    "value": "Normal vector Y",
+                    "comment": ""
+                },
+                "PLANE9": {
+                    "value": "Normal vector Z",
+                    "comment": ""
+                },
+                "PLANE10": {
+                    "value": "Gravity vector X",
+                    "comment": "[m/s^2]"
+                },
+                "PLANE11": {
+                    "value": "Gravity vector Y",
+                    "comment": "[m/s^2]"
+                },
+                "PLANE12": {
+                    "value": "Gravity vector Z",
+                    "comment": "[m/s^2]"
+                },
+                "PLANE13": {
+                    "value": "Gravitational magnitude",
+                    "comment": "[m/s^2]"
+                },
+                "PLANE14": {
+                    "value": "Gravitational potential",
+                    "comment": "[J/kg]"
+                },
+                "PLANE15": {
+                    "value": "Elevation",
+                    "comment": "[m]"
+                },
+                "PLANE16": {
+                    "value": "Slope",
+                    "comment": "[deg]"
+                },
+                "PLANE17": {
+                    "value": "Area",
+                    "comment": "[km^2]"
+                },
+                "PLANE18": {
+                    "value": "Facet tilt",
+                    "comment": "[deg]"
+                },
+                "PLANE19": {
+                    "value": "Facet tilt direction",
+                    "comment": "[deg]"
+                },
+                "PLANE20": {
+                    "value": "Mean tilt",
+                    "comment": "[deg]"
+                },
+                "PLANE21": {
+                    "value": "Tilt variation",
+                    "comment": "[deg]"
+                },
+                "PLANE22": {
+                    "value": "Mean tilt direction",
+                    "comment": "[deg]"
+                },
+                "PLANE23": {
+                    "value": "Tilt direction variation",
+                    "comment": "[deg]"
+                },
+                "PLANE24": {
+                    "value": "Relative tilt",
+                    "comment": "[deg]"
+                },
+                "PLANE25": {
+                    "value": "Relative tilt direction",
+                    "comment": "[deg]"
+                },
+                "PLANE26": {
+                    "value": "Max relative height",
+                    "comment": "[km]"
+                },
+                "SIGMA": {
+                    "value": -999.0,
+                    "comment": "Global uncertainty of the data [m]"
+                },
+                "SIG_DEF": {
+                    "value": "Uncertainty",
+                    "comment": "SIGMA uncertainty metric"
+                },
+                "PXPERDEG": {
+                    "value": 6.0,
+                    "comment": "[pixel per degree] grid spacing of global map."
+                },
+                "DENSITY": {
+                    "value": 2400.0,
+                    "comment": "[kgm^-3] density of body"
+                },
+                "ROT_RATE": {
+                    "value": 0.0001464,
+                    "comment": "[rad/sec] rotation rate of body"
+                },
+                "REF_POT": {
+                    "value": -0.00605187099939169,
+                    "comment": "[J/kg] reference potential of body"
+                },
+                "TILT_MAJ": {
+                    "value": 1.5,
+                    "comment": "[m] semi-major axis of ellipse for tilt calcs"
+                },
+                "TILT_MIN": {
+                    "value": 1.5,
+                    "comment": "[m] semi-minor axis of ellipse for tilt calcs"
+                },
+                "TILT_PA": {
+                    "value": 0.0,
+                    "comment": "[deg] position angle of ellipse for tilt calcs"
+                }
+            }
+        ]
+    },
+    "mbi2gpc": {
+        "spice": "hera_didymos_v06.tpc"
+    },
+    "DemModel": {
+        "ModelType": "DemEllipsoid",
+        "Center": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "AxisX": [
+            1.0,
+            0.0,
+            0.0
+        ],
+        "AxisY": [
+            0.0,
+            -1.0,
+            0.0
+        ],
+        "AxisZ": [
+            0.0,
+            0.0,
+            -1.0
+        ],
+        "Radii": [
+            89.5,
+            84.5,
+            57.5
+        ]
+    }
+}

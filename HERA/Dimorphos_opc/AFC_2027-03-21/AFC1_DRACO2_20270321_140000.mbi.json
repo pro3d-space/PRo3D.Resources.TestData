@@ -35,7 +35,7 @@
         "comment": ""
       },
       "DATE": {
-        "value": "2026-09-10T14:41:45.863Z",
+        "value": "2026-11-12T14:16:54.134Z",
         "comment": "File creation time UTC"
       },
       "DATE-OBS": {
@@ -110,6 +110,7 @@
   ],
   "bands": [
     {
+      "index": 0,
       "file_path": "AFC1_DRACO2_20270321_140000.png"
     }
   ]

@@ -3,7 +3,10 @@
 Eight simulated HERA/AFC-1 frames with `.mbi.json` sidecars, plus a ready-to-open
 scene, for checking that image projection lands correctly in the PRo3D viewer.
 
-Rendered against **`../Dimorphos`**, the OPC next to this folder. The frames are
+Rendered against **`../Dimorphos_DRACO_V4/Dimorphos_DRACO`** (shape model v004,
+`dimorphos_g_0243mm_spc_dtm_0000n00000_v004`), the OPC next to this folder, at AFC-1's
+5.5° field of view and with the `hera_plan` metakernel v182_20261105_001
+(regenerated for PRo3D#882; before, v003 at 5.5307°). The frames are
 only meaningful on the shape model they came from.
 
 **These are self-referential on purpose.** Each frame was rendered *from* the
@@ -39,7 +42,7 @@ checking that flying between them carries the scene clock with it. Ranges
 
 Open `ProjectionTest.pro3d`. It already has: the OPC loaded and bound to entity
 *Dimorphos* / frame *DIMORPHOS_FIXED*, observed body *Dimorphos*, time
-2027-03-21T20:00, texture DRACO_2, near plane 10, focal 122.563 mm, and the
+2027-03-21T20:00, texture DRACO_2, near plane 10, focal 123.247 mm, and the
 camera on the 20:00 frame's axis at its own 6 706.8 m — the closest pass, and so
 the frame with the most surface detail.
 
@@ -72,7 +75,7 @@ Also set the SPICE kernel to `hera_plan.tm`.
   compared with the PNG rather than with a colour-mapped version of it.
 - **Near plane 10.** At ~8 km a 0.1 near plane cannot separate the near and far
   surfaces of a 177 m body and the far side punches through.
-- **Focal 122.563 mm** = AFC-1's 5.5307°. This also makes fly-to land exactly at
+- **Focal 123.247 mm** = AFC-1's 5.5° (`hera_afc_v06.ti`). This also makes fly-to land exactly at
   the instrument: the standoff frames the footprint in the *viewer's* field of
   view, so when the two match, standoff = range.
 - **Roughly square window.** The standoff fits the footprint in the *vertical*
@@ -106,7 +109,7 @@ the size of that bias.
 ## Regenerating
 
 ```
-pro3d-tool simulate-image --opc <...>\Dimorphos_opc\Dimorphos_DRACO1_DRACO2_Earth\Dimorphos \
+pro3d-tool simulate-image --opc <...>\Dimorphos_opc\Dimorphos_DRACO_V4\Dimorphos_DRACO \
     --time 2027-03-21T20:00:00Z --body DIMORPHOS --frame DIMORPHOS_FIXED \
     --observer HERA --instrument HERA_AFC-1 \
     --texture-only --texture-layer DRACO_2 --write-mbi \
@@ -123,7 +126,7 @@ Or generate the whole set in one go, which is how it was made — the script als
 checks every sidecar it writes and reports any render that failed:
 
 ```
-python scripts/make-projection-test-data.py     --opc <...>/Dimorphos_opc/Dimorphos_DRACO1_DRACO2_Earth/Dimorphos --out <this folder>     --texture-layer DRACO_2 --scene-template <an existing .pro3d>
+python scripts/make-projection-test-data.py     --opc <...>/Dimorphos_opc/Dimorphos_DRACO_V4/Dimorphos_DRACO --out <this folder>     --texture-layer DRACO_2 --scene-template <an existing .pro3d>
 ```
 
 Needs SPICE kernels — `PRO3D_SPICE_KERNELS` pointing at a clone of
