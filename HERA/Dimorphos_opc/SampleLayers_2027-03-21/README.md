@@ -7,8 +7,8 @@ Simulated observations of Dimorphos by three HERA instruments at the same four e
 and projectable in the viewer like delivered data.
 
 Rendered against **`../Dimorphos_DRACO_V4/Dimorphos_DRACO`** (shape model v004), the OPC
-next to this folder, with `pro3d-tool simulate-image` and the `hera_plan` metakernel
-v182_20261105_001 (regenerated for PRo3D#882: HyperScout at its paraxial 15.5 x 8.3 deg,
+next to this folder, with `pro3d-tool simulate-image` and a current plan metakernel
+(regenerated for PRo3D#882: HyperScout at its paraxial 15.5 x 8.3 deg,
 AFC at 5.5 deg).
 The frames are only meaningful on the shape model they came from.
 
