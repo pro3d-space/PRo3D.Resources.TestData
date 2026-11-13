@@ -5,7 +5,7 @@
     "product_type": "simulated image",
     "product_state": "generated",
     "creator_id": "pro3d-tool simulate-image",
-    "creation_datetime": "2026-09-24T07:03:45.7002352Z"
+    "creation_datetime": "2026-11-12T14:19:39.1112683Z"
   },
   "image_width": 1020,
   "image_height": 1020,
@@ -16,8 +16,8 @@
     {
       "minimum": 0,
       "maximum": 1,
-      "mean": 0.01189341580539276,
-      "median": 0.01189341580539276,
+      "mean": 0.011892171939910998,
+      "median": 0.011892171939910998,
       "standard_deviation": 0,
       "variance": 0
     }

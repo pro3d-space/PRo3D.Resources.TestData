@@ -5,7 +5,7 @@
     "product_type": "simulated image",
     "product_state": "generated",
     "creator_id": "pro3d-tool simulate-image",
-    "creation_datetime": "2026-09-24T07:03:52.8456487Z"
+    "creation_datetime": "2026-11-12T14:19:43.9178346Z"
   },
   "label": "Vis_1",
   "image_width": 640,
@@ -18,11 +18,11 @@
   "image_statistics": [
     {
       "minimum": 0,
-      "maximum": 0.30886685848236084,
-      "mean": 0.000738353448235074,
-      "median": 0.000738353448235074,
-      "standard_deviation": 0.010995352633141097,
-      "variance": 0.00012089777952712286
+      "maximum": 0.3003006875514984,
+      "mean": 0.0007245301322626573,
+      "median": 0.0007245301322626573,
+      "standard_deviation": 0.01088352861955224,
+      "variance": 0.00011845119521261266
     }
   ],
   "mission_name": "HERA",

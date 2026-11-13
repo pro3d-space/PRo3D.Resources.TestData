@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Aardvark version="4">
+  <SurfaceAttributes version="0" num="0">
+    <AttributeLayers num="1" count="39">
+      <AttributeLayer version="0" num="2">
+        <Type>Texture</Type>
+        <Label>DRACO_1</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="3">
+        <Type>Texture</Type>
+        <Label>Earth</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="4">
+        <Type>Texture</Type>
+        <Label>LonLatRad</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="5">
+        <Type>Texture</Type>
+        <Label>Normal</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="6">
+        <Type>Texture</Type>
+        <Label>Gravity</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="7">
+        <Type>Texture</Type>
+        <Label>Magnitude</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="8">
+        <Type>Texture</Type>
+        <Label>Potential</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="9">
+        <Type>Texture</Type>
+        <Label>Elevation</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="10">
+        <Type>Texture</Type>
+        <Label>Slope</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="11">
+        <Type>Texture</Type>
+        <Label>Area</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="12">
+        <Type>Texture</Type>
+        <Label>FacetTiltDirection</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="13">
+        <Type>Texture</Type>
+        <Label>FacetTilt</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="14">
+        <Type>Texture</Type>
+        <Label>MeanTilt</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="15">
+        <Type>Texture</Type>
+        <Label>TiltVariation</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="16">
+        <Type>Texture</Type>
+        <Label>MeanTiltDirection</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="17">
+        <Type>Texture</Type>
+        <Label>TiltDirectionVariation</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="18">
+        <Type>Texture</Type>
+        <Label>RelativeTiltDirection</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="19">
+        <Type>Texture</Type>
+        <Label>RelativeTilt</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="20">
+        <Type>Texture</Type>
+        <Label>MaxRelativeHeight</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="21">
+        <Type>Texture</Type>
+        <Label>DRACO_2</Label>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="22">
+        <Type>Map</Type>
+        <Label>LonLatRad</Label>
+        <ChannelsDefinedRange>[[0.000000000, 359.833343506], [-90.000000000, 90.000000000], [56.086013794, 93.474227905]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[0.000000000, 359.833343506], [-90.000000000, 90.000000000], [56.086013794, 93.474227905]]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="23">
+        <Type>Map</Type>
+        <Label>Normal</Label>
+        <ChannelsDefinedRange>[[-1.000000000, 0.997825980], [-0.999410272, 1.000000000], [-1.000000000, 1.000000000]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[-1.000000000, 0.997825980], [-0.999410272, 1.000000000], [-1.000000000, 1.000000000]]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="24">
+        <Type>Map</Type>
+        <Label>Gravity</Label>
+        <ChannelsDefinedRange>[[-0.000044282, 0.000045430], [-0.000050711, 0.000052371], [-0.000054439, 0.000054857]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[-0.000044282, 0.000045430], [-0.000050711, 0.000052371], [-0.000054439, 0.000054857]]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="25">
+        <Type>Map</Type>
+        <Label>Magnitude</Label>
+        <ChannelsDefinedRange>[0.000039175, 0.000056013]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.000039175, 0.000056013]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="26">
+        <Type>Map</Type>
+        <Label>Potential</Label>
+        <ChannelsDefinedRange>[-0.006051805, -0.001113811]</ChannelsDefinedRange>
+        <ChannelsActualRange>[-0.006051805, -0.001113811]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="27">
+        <Type>Map</Type>
+        <Label>Elevation</Label>
+        <ChannelsDefinedRange>[0.001481189, 126.037208557]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.001481189, 126.037208557]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="28">
+        <Type>Map</Type>
+        <Label>Slope</Label>
+        <ChannelsDefinedRange>[0.077233396, 70.329895020]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.077233396, 70.329895020]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="29">
+        <Type>Map</Type>
+        <Label>Area</Label>
+        <ChannelsDefinedRange>[0.000000013, 0.000000065]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.000000013, 0.000000065]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="30">
+        <Type>Map</Type>
+        <Label>FacetTiltDirection</Label>
+        <ChannelsDefinedRange>[0.000000000, 359.944549561]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.000000000, 359.944549561]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="31">
+        <Type>Map</Type>
+        <Label>FacetTilt</Label>
+        <ChannelsDefinedRange>[0.135661840, 85.627876282]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.135661840, 85.627876282]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="32">
+        <Type>Map</Type>
+        <Label>MeanTilt</Label>
+        <ChannelsDefinedRange>[0.069460317, 77.302474976]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.069460317, 77.302474976]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="33">
+        <Type>Map</Type>
+        <Label>TiltVariation</Label>
+        <ChannelsDefinedRange>[0.078911401, 17.807092667]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.078911401, 17.807092667]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="34">
+        <Type>Map</Type>
+        <Label>MeanTiltDirection</Label>
+        <ChannelsDefinedRange>[0.011895305, 359.986572266]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.011895305, 359.986572266]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="35">
+        <Type>Map</Type>
+        <Label>TiltDirectionVariation</Label>
+        <ChannelsDefinedRange>[0.019578768, 9.242413521]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.019578768, 9.242413521]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="36">
+        <Type>Map</Type>
+        <Label>RelativeTiltDirection</Label>
+        <ChannelsDefinedRange>[0.040652234, 359.958618164]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.040652234, 359.958618164]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="37">
+        <Type>Map</Type>
+        <Label>RelativeTilt</Label>
+        <ChannelsDefinedRange>[0.023906464, 49.727779388]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.023906464, 49.727779388]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="38">
+        <Type>Map</Type>
+        <Label>MaxRelativeHeight</Label>
+        <ChannelsDefinedRange>[0.000003545, 0.000721705]</ChannelsDefinedRange>
+        <ChannelsActualRange>[0.000003545, 0.000721705]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="39">
+        <Type>Map</Type>
+        <Label>DRACO_1</Label>
+        <ChannelsDefinedRange>[[1.000000000, 255.000000000], [1.000000000, 255.000000000], [1.000000000, 255.000000000]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[1.000000000, 255.000000000], [1.000000000, 255.000000000], [1.000000000, 255.000000000]]</ChannelsActualRange>
+      </AttributeLayer>
+      <AttributeLayer version="0" num="40">
+        <Type>Map</Type>
+        <Label>DRACO_2</Label>
+        <ChannelsDefinedRange>[[1.000000000, 255.000000000], [1.000000000, 255.000000000], [1.000000000, 255.000000000]]</ChannelsDefinedRange>
+        <ChannelsActualRange>[[1.000000000, 255.000000000], [1.000000000, 255.000000000], [1.000000000, 255.000000000]]</ChannelsActualRange>
+      </AttributeLayer>
+    </AttributeLayers>
+  </SurfaceAttributes>
+</Aardvark>
