@@ -35,7 +35,7 @@
         "comment": ""
       },
       "DATE": {
-        "value": "2026-11-12T14:17:53.887Z",
+        "value": "2026-11-23T09:32:52.940Z",
         "comment": "File creation time UTC"
       },
       "DATE-OBS": {
@@ -47,7 +47,7 @@
         "comment": "Observation target"
       },
       "SPICE_MK": {
-        "value": "hera_plan",
+        "value": "hera_plan_v182_20261105_001",
         "comment": "SPICE metakernel"
       },
       "SUN_POSX": {
