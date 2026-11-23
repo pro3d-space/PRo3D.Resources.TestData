@@ -21,7 +21,7 @@ The frames are only meaningful on the shape model they came from.
 
 | Folder | Instrument | Spacecraft | Per epoch |
 |---|---|---|---|
-| `AFC/` | AFC-1 | Hera | `AFC1_SIM_<epoch>.png` — 1020x1020, 8-bit, lit render (Lommel-Seeliger, micro-structure, cast shadows), gain 4.5 |
+| `AFC/` | AFC-1 | Hera | `AFC1_SIM_<epoch>.png` — 1020x1020, 8-bit, lit render (Lommel-Seeliger, micro-structure, cast shadows), gain 4.5; rows in the instrument's order (first row = bottom of the frame, per AFC's instrument kernel; regenerated for PRo3D#929), sidecars name the concrete metakernel |
 | `ASPECT/` | ASPECT 2B | Milani | `ASP_SIM_<epoch>_<band>.tif` — 37 single-band float TIFFs, 640x512, `Vis_0`…`NIR2_12` (675–1575 nm) |
 | `HSH/` | HyperScout 1B | Hera | `HSH_SIM_<epoch>_Stacked.tif` — one float TIFF of 25 planes, 409x217 (661–952 nm) |
 

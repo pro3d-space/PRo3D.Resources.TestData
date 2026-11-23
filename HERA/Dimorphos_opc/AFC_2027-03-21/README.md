@@ -6,8 +6,10 @@ scene, for checking that image projection lands correctly in the PRo3D viewer.
 Rendered against **`../Dimorphos_DRACO_V4/Dimorphos_DRACO`** (shape model v004,
 `dimorphos_g_0243mm_spc_dtm_0000n00000_v004`), the OPC next to this folder, at AFC-1's
 5.5° field of view and with a current plan metakernel
-(regenerated for PRo3D#882; before, v003 at 5.5307°). The frames are
-only meaningful on the shape model they came from.
+(regenerated for PRo3D#882; before, v003 at 5.5307°; regenerated again for PRo3D#929,
+see *Row order* below). The frames are only meaningful on the shape model they came
+from. Each sidecar's `SPICE_MK` names the concrete, versioned metakernel the frame was
+rendered with, and the scene loads that same file.
 
 **These are self-referential on purpose.** Each frame was rendered *from* the
 shape model, and its sidecar describes *the camera that render actually used*. So
@@ -24,6 +26,12 @@ projection, not in the data.
 | `AFC1_DRACO2_<date>_<time>.png` | the **DRACO_2** mosaic as the camera sees it, no lighting. The frames to use for judging registration: they carry real surface detail. |
 | `AFC1_SIM_<date>_<time>.png` | lit render — Lommel-Seeliger shading, micro-structure, cast shadows, constant albedo. Fixed gain 4.492 across the four. |
 | `*.mbi.json` | `SC_QUAT0..3` (spacecraft→J2000, w,x,y,z) and `TRG_POSX/Y/Z` (target minus spacecraft, km, J2000). |
+
+**Row order.** The PNGs are stored in the instrument's own row order: AFC-1's
+instrument kernel puts pixel (0,0) in the lower left corner, so the first row is the
+**bottom** of the frame and the files look upside down in an image viewer. PRo3D
+projects AFC images with flipped rows by default (*Instrument Settings › flip*), so they
+land correctly; the frames before PRo3D#929 were stored top-down and are these, flipped.
 
 **Why DRACO_2 and not DRACO_1.** The two layers are different DART imaging
 passes covering different hemispheres, and at these epochs HERA is looking at the
@@ -47,7 +55,8 @@ camera on the 20:00 frame's axis at its own 6 706.8 m — the closest pass, and 
 the frame with the most surface detail.
 
 Then: GIS tab → **Projected Images** → *Import Directory* → this folder →
-untick **Transfer Function** (*Orientation Source* is already MBI) → click a frame's
+untick **Transfer Function**, set *Orientation Source* to **MBI (SC_QUAT + TRG_POS)** (it is
+not stored in a scene; the default is *SPICE (instrument frame)*) → click a frame's
 location arrow to fly to it → **+** to project.
 
 ### Starting from an empty PRo3D instead
